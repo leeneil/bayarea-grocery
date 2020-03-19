@@ -17,12 +17,13 @@
        * element that contains the map. */
       #map {
         height: 100%;
+        z-index: -1;
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
+        height: 98%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
       }
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -132,10 +133,14 @@
       }
 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd5AayJWH2uYLAYRrdliecr8xg599Xbi0&callback=initMap"
+<!--    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd5AayJWH2uYLAYRrdliecr8xg599Xbi0&callback=initMap"-->
+<!--    async defer></script>-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFlAdVzKD_wiHuuETrshMhbwJjx78usas&callback=initMap"
     async defer></script>
     <footer>
+      <div class="footer-copyright text-center">
       Disclaimer: the author doesn't own the <a href="https://docs.google.com/spreadsheets/d/1YpNdWWlvtZJ1xN7GW-XYMI_hEuU5u250bJUT55NM8Oc/htmlview?from=timeline&isappinstalled=0&fbclid=IwAR03bJGfoqpFnB7x0xdnrqvjoyKNJmyD7QBuZ6O5ln5AT8jb_A1Bh9SNgqw" target="_blank">data</a> in anyway. Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSchp7hUKvXWYwz2NvTyANYNZNuBfh21EZ0dQFvgqqYYEDGhqw/viewform" target="_blank">contribute data here</a>.
+      </div>
     </footer>
   </body>
 </html>
