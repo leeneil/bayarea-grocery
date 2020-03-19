@@ -114,7 +114,7 @@
         });
         map.data.addListener('click', function(event) {
           var keyword = event.feature.getProperty('name');
-          infowindow.setContent(event.feature.getProperty('name') + "<br/>" + '<a href="https://en.wikipedia.org/w/index.php?search=' + keyword + '" target="_blank">Wikipedia</a>' );
+          infowindow.setContent(event.feature.getProperty('content'));
            infowindow.setPosition(event.latLng);
            infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
            infowindow.open(map);
