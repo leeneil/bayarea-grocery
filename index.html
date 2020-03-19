@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Styled Maps - Night Mode</title>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <title>Groceroy stores in Bay Area</title>
+    <!-- Facebook OG -->
+    <meta name="keywords" content="San Francisco, Covid-19, shelter in place"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:site_name" content="Groceroy stores in Bay Area"/>
+    <meta property="og:title" content="Groceroy stores in Bay Area"/>
+    <meta property="og:url" content="http://www.ponan.li/bayarea-grocery/"/>
+    <meta property="og:description" content="Info visualization of grocery in the San Francisco Bay Area."/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:image" content="http://www.ponan.li/bayarea-grocery/og.png"/>
     <meta charset="utf-8">
     <style>
       /* Always set the map height explicitly to define the size of the div
@@ -17,6 +25,8 @@
         padding: 0;
       }
     </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="map"></div>
@@ -124,5 +134,8 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd5AayJWH2uYLAYRrdliecr8xg599Xbi0&callback=initMap"
     async defer></script>
+    <footer>
+      Disclaimer: the author doesn't own the <a href="https://docs.google.com/spreadsheets/d/1YpNdWWlvtZJ1xN7GW-XYMI_hEuU5u250bJUT55NM8Oc/htmlview?from=timeline&isappinstalled=0&fbclid=IwAR03bJGfoqpFnB7x0xdnrqvjoyKNJmyD7QBuZ6O5ln5AT8jb_A1Bh9SNgqw" target="_blank">data</a> in anyway. Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSchp7hUKvXWYwz2NvTyANYNZNuBfh21EZ0dQFvgqqYYEDGhqw/viewform" target="_blank">contribute data here</a>.
+    </footer>
   </body>
 </html>

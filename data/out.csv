@@ -1,4 +1,4 @@
-,market,city,date,time,zip,available,description,sold_old,crowdedness,maskness,contributor,memark,timestamp,A,B
+,market,city,date,time,zip,available,description,sold_out,crowdedness,maskness,contributor,memark,timestamp,A,B
 0,Costco,Sunnyvale,3/18/2020,15:00 - 18:00,94086,"Milk, egg, veggies, fruit, meat, water, toilet paper",Plenty,,1,2,,,3/18/2020 22:21:26,,
 1,Sprout,North San Jose,3/18/2020,18:00 - 21:00,95131,蔬菜 水果 牛肉 鸡肉,,米/面/油/奶粉/鸡蛋/各类披萨酱/黄油,2,1,一一二二二,,3/18/2020 22:15:16,,
 2,Lion Market,South San Jose,3/18/2020,09:00 - 12:00,95121,蔬果充足，鱼海鲜还好，肉类个别有货,中下,米面,2,2,,,3/18/2020 22:09:05,,
