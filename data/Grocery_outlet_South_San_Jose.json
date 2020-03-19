@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1665",
+               "short_name" : "1665",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Foxworthy Avenue",
+               "short_name" : "Foxworthy Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Willow Glen",
+               "short_name" : "Willow Glen",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95124",
+               "short_name" : "95124",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1665 Foxworthy Ave, San Jose, CA 95124, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2707135,
+               "lng" : -121.9075748
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2720624802915,
+                  "lng" : -121.9062258197085
+               },
+               "southwest" : {
+                  "lat" : 37.2693645197085,
+                  "lng" : -121.9089237802915
+               }
+            }
+         },
+         "place_id" : "ChIJjb6_WXk0joARDu3TlbXWPXk",
+         "plus_code" : {
+            "compound_code" : "73CR+7X San Jose, California, United States",
+            "global_code" : "849W73CR+7X"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

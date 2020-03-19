@@ -1,0 +1,85 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "34444",
+               "short_name" : "34444",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Fremont Boulevard",
+               "short_name" : "Fremont Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Northgate",
+               "short_name" : "Northgate",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Fremont",
+               "short_name" : "Fremont",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94555",
+               "short_name" : "94555",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "3321",
+               "short_name" : "3321",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "Paseo Padre Shopping Center, 34444 Fremont Blvd, Fremont, CA 94555, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.575346,
+               "lng" : -122.039203
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5766949802915,
+                  "lng" : -122.0378540197085
+               },
+               "southwest" : {
+                  "lat" : 37.5739970197085,
+                  "lng" : -122.0405519802915
+               }
+            }
+         },
+         "place_id" : "ChIJhYBd3yy-j4ARebzXHtfnLiU",
+         "plus_code" : {
+            "compound_code" : "HXG6+48 Fremont, California, United States",
+            "global_code" : "849VHXG6+48"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

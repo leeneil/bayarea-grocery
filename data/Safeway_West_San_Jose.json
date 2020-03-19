@@ -1,0 +1,79 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1300",
+               "short_name" : "1300",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "West San Carlos Street",
+               "short_name" : "W San Carlos St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Central San Jose",
+               "short_name" : "Central San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95126",
+               "short_name" : "95126",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1300 W San Carlos St, San Jose, CA 95126, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3227653,
+               "lng" : -121.9121989
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3241142802915,
+                  "lng" : -121.9108499197085
+               },
+               "southwest" : {
+                  "lat" : 37.3214163197085,
+                  "lng" : -121.9135478802915
+               }
+            }
+         },
+         "place_id" : "ChIJqwffsVrLj4ARKaVmfRFSil4",
+         "plus_code" : {
+            "compound_code" : "83FQ+44 San Jose, California, United States",
+            "global_code" : "849W83FQ+44"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

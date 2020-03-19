@@ -1,0 +1,79 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2811",
+               "short_name" : "2811",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Middlefield Road",
+               "short_name" : "Middlefield Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Midtown",
+               "short_name" : "Midtown",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Palo Alto",
+               "short_name" : "Palo Alto",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94306",
+               "short_name" : "94306",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2811 Middlefield Rd, Palo Alto, CA 94306, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4328752,
+               "lng" : -122.1272763
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.43422418029149,
+                  "lng" : -122.1259273197085
+               },
+               "southwest" : {
+                  "lat" : 37.43152621970849,
+                  "lng" : -122.1286252802915
+               }
+            }
+         },
+         "place_id" : "ChIJd78gt1e6j4ARNvamGuQ4hDs",
+         "plus_code" : {
+            "compound_code" : "CVMF+53 Palo Alto, California, United States",
+            "global_code" : "849VCVMF+53"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

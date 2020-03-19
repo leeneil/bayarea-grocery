@@ -1,0 +1,73 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1001",
+               "short_name" : "1001",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Metro Center Boulevard",
+               "short_name" : "Metro Center Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Town Center",
+               "short_name" : "Town Center",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Foster City",
+               "short_name" : "Foster City",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Mateo County",
+               "short_name" : "San Mateo County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94404",
+               "short_name" : "94404",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1001 Metro Center Blvd, Foster City, CA 94404, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5618102,
+               "lng" : -122.2743293
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.56315918029149,
+                  "lng" : -122.2729803197085
+               },
+               "southwest" : {
+                  "lat" : 37.56046121970849,
+                  "lng" : -122.2756782802915
+               }
+            }
+         },
+         "place_id" : "ChIJs28IDc-ej4AR3at9IImuI5Y",
+         "plus_code" : {
+            "compound_code" : "HP6G+P7 Foster City, California, United States",
+            "global_code" : "849VHP6G+P7"
+         },
+         "types" : [ "department_store", "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

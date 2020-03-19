@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2992",
+               "short_name" : "2992",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "South Norfolk Street",
+               "short_name" : "S Norfolk St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East San Mateo",
+               "short_name" : "East San Mateo",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Mateo",
+               "short_name" : "San Mateo",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Mateo County",
+               "short_name" : "San Mateo County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94403",
+               "short_name" : "94403",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2992 S Norfolk St, San Mateo, CA 94403, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.544438,
+               "lng" : -122.2845587
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5457869802915,
+                  "lng" : -122.2832097197085
+               },
+               "southwest" : {
+                  "lat" : 37.5430890197085,
+                  "lng" : -122.2859076802915
+               }
+            }
+         },
+         "place_id" : "ChIJRRfPlCCfj4ARdq1b6662mEI",
+         "plus_code" : {
+            "compound_code" : "GPV8+Q5 San Mateo, California, United States",
+            "global_code" : "849VGPV8+Q5"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,76 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "20955",
+               "short_name" : "20955",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Stevens Creek Boulevard",
+               "short_name" : "Stevens Creek Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Cupertino",
+               "short_name" : "Cupertino",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95014",
+               "short_name" : "95014",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "20955 Stevens Creek Blvd, Cupertino, CA 95014, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3235879,
+               "lng" : -122.0396177
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3249368802915,
+                  "lng" : -122.0382687197085
+               },
+               "southwest" : {
+                  "lat" : 37.3222389197085,
+                  "lng" : -122.0409666802915
+               }
+            }
+         },
+         "place_id" : "ChIJ4z7_Z020j4ARIZO_r_8b9Po",
+         "plus_code" : {
+            "compound_code" : "8XF6+C5 Cupertino, California, United States",
+            "global_code" : "849V8XF6+C5"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

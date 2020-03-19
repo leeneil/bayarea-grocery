@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "10122",
+               "short_name" : "10122",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bandley Drive",
+               "short_name" : "Bandley Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Cupertino",
+               "short_name" : "Cupertino",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95014",
+               "short_name" : "95014",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "10122 Bandley Dr, Cupertino, CA 95014, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3246137,
+               "lng" : -122.0333718
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3259626802915,
+                  "lng" : -122.0320228197085
+               },
+               "southwest" : {
+                  "lat" : 37.3232647197085,
+                  "lng" : -122.0347207802915
+               }
+            }
+         },
+         "place_id" : "ChIJtyma8621j4ARjeI2HR1fKQ4",
+         "plus_code" : {
+            "compound_code" : "8XF8+RM Cupertino, California, United States",
+            "global_code" : "849V8XF8+RM"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

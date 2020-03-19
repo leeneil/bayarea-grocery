@@ -1,0 +1,84 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "298",
+               "short_name" : "298",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "West McKinley Avenue",
+               "short_name" : "W McKinley Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Heritage District",
+               "short_name" : "Heritage District",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Sunnyvale",
+               "short_name" : "Sunnyvale",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94086",
+               "short_name" : "94086",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "298 W McKinley Ave, Sunnyvale, CA 94086, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3738416,
+               "lng" : -122.0322867
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3751905802915,
+                  "lng" : -122.0309377197085
+               },
+               "southwest" : {
+                  "lat" : 37.3724926197085,
+                  "lng" : -122.0336356802915
+               }
+            }
+         },
+         "place_id" : "ChIJqUSz4l22j4ARRjulQFPISrw",
+         "plus_code" : {
+            "compound_code" : "9XF9+G3 Sunnyvale, California, United States",
+            "global_code" : "849V9XF9+G3"
+         },
+         "types" : [
+            "clothing_store",
+            "department_store",
+            "electronics_store",
+            "establishment",
+            "food",
+            "furniture_store",
+            "grocery_or_supermarket",
+            "home_goods_store",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

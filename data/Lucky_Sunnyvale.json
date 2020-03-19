@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "484",
+               "short_name" : "484",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "North Mathilda Avenue",
+               "short_name" : "N Mathilda Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sunnyvale",
+               "short_name" : "Sunnyvale",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94086",
+               "short_name" : "94086",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "484 N Mathilda Ave, Sunnyvale, CA 94086, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.388617,
+               "lng" : -122.02949
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3899659802915,
+                  "lng" : -122.0281410197085
+               },
+               "southwest" : {
+                  "lat" : 37.3872680197085,
+                  "lng" : -122.0308389802915
+               }
+            }
+         },
+         "place_id" : "ChIJ8WWsh1G2j4AR8m5FQXxwjkU",
+         "plus_code" : {
+            "compound_code" : "9XQC+C6 Sunnyvale, California, United States",
+            "global_code" : "849V9XQC+C6"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

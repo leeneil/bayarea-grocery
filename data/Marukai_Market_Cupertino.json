@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "19750",
+               "short_name" : "19750",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Stevens Creek Boulevard",
+               "short_name" : "Stevens Creek Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Cupertino",
+               "short_name" : "Cupertino",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95014",
+               "short_name" : "95014",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "2456",
+               "short_name" : "2456",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "19750 Stevens Creek Blvd, Cupertino, CA 95014, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3217348,
+               "lng" : -122.0186149
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3230837802915,
+                  "lng" : -122.0172659197085
+               },
+               "southwest" : {
+                  "lat" : 37.32038581970851,
+                  "lng" : -122.0199638802915
+               }
+            }
+         },
+         "place_id" : "ChIJM_mn-aC1j4ARlDR1Rb2pCns",
+         "plus_code" : {
+            "compound_code" : "8XCJ+MH Cupertino, California, United States",
+            "global_code" : "849V8XCJ+MH"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

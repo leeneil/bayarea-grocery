@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "South Milpitas Boulevard",
+               "short_name" : "S Milpitas Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Milpitas",
+               "short_name" : "Milpitas",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95035",
+               "short_name" : "95035",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "2714",
+               "short_name" : "2714",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "1838 North Milpitas Boulevard, S Milpitas Blvd, Milpitas, CA 95035, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4564538,
+               "lng" : -121.9102111
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4578027802915,
+                  "lng" : -121.9088621197085
+               },
+               "southwest" : {
+                  "lat" : 37.4551048197085,
+                  "lng" : -121.9115600802915
+               }
+            }
+         },
+         "place_id" : "ChIJ0dF7ObDIj4ARktSPemA_d7M",
+         "plus_code" : {
+            "compound_code" : "F34Q+HW Milpitas, California, United States",
+            "global_code" : "849WF34Q+HW"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

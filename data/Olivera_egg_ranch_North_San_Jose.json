@@ -1,0 +1,78 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3315",
+               "short_name" : "3315",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Sierra Road",
+               "short_name" : "Sierra Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Upper Sierra",
+               "short_name" : "Upper Sierra",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95132",
+               "short_name" : "95132",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "3099",
+               "short_name" : "3099",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "3315 Sierra Rd, San Jose, CA 95132, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4003636,
+               "lng" : -121.8461716
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4017125802915,
+                  "lng" : -121.8448226197085
+               },
+               "southwest" : {
+                  "lat" : 37.3990146197085,
+                  "lng" : -121.8475205802915
+               }
+            }
+         },
+         "place_id" : "ChIJ66wkHNDNj4ARW8-Xuh1Idoc",
+         "plus_code" : {
+            "compound_code" : "C523+4G San Jose, California, United States",
+            "global_code" : "849WC523+4G"
+         },
+         "types" : [ "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

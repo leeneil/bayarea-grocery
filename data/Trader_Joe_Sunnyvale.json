@@ -1,0 +1,78 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "316",
+               "short_name" : "316",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "West El Camino Real",
+               "short_name" : "W El Camino Real",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sunnyvale",
+               "short_name" : "Sunnyvale",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94087",
+               "short_name" : "94087",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "316 W El Camino Real, Sunnyvale, CA 94087, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3678921,
+               "lng" : -122.0358811
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3692410802915,
+                  "lng" : -122.0345321197085
+               },
+               "southwest" : {
+                  "lat" : 37.3665431197085,
+                  "lng" : -122.0372300802915
+               }
+            }
+         },
+         "place_id" : "ChIJ85hAC2S2j4AREcXKC2FLO6g",
+         "plus_code" : {
+            "compound_code" : "9X97+5J Sunnyvale, California, United States",
+            "global_code" : "849V9X97+5J"
+         },
+         "types" : [
+            "establishment",
+            "florist",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "liquor_store",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

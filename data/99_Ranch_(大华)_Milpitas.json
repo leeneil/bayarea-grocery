@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "338",
+               "short_name" : "338",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Barber Lane",
+               "short_name" : "Barber Ln",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Milpitas",
+               "short_name" : "Milpitas",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95035",
+               "short_name" : "95035",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Milpitas Square, 338 Barber Ln, Milpitas, CA 95035, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.42286,
+               "lng" : -121.91695
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4242089802915,
+                  "lng" : -121.9156010197085
+               },
+               "southwest" : {
+                  "lat" : 37.4215110197085,
+                  "lng" : -121.9182989802915
+               }
+            }
+         },
+         "place_id" : "ChIJB6nTySbJj4ARxJnc-v4ZJoo",
+         "plus_code" : {
+            "compound_code" : "C3FM+46 Milpitas, California, United States",
+            "global_code" : "849WC3FM+46"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

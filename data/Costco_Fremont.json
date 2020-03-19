@@ -1,0 +1,73 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "43621",
+               "short_name" : "43621",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pacific Commons Boulevard",
+               "short_name" : "Pacific Commons Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Baylands",
+               "short_name" : "Baylands",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Fremont",
+               "short_name" : "Fremont",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94538",
+               "short_name" : "94538",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "43621 Pacific Commons Blvd, Fremont, CA 94538, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5016106,
+               "lng" : -121.9729822
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5029595802915,
+                  "lng" : -121.9716332197085
+               },
+               "southwest" : {
+                  "lat" : 37.5002616197085,
+                  "lng" : -121.9743311802915
+               }
+            }
+         },
+         "place_id" : "ChIJn6h8zmvHj4ARADy6KQ9ZhFM",
+         "plus_code" : {
+            "compound_code" : "G22G+JR Fremont, California, United States",
+            "global_code" : "849WG22G+JR"
+         },
+         "types" : [ "department_store", "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

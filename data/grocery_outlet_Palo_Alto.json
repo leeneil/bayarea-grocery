@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3445",
+               "short_name" : "3445",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Alma Street",
+               "short_name" : "Alma St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "St. Claire Gardens",
+               "short_name" : "St. Claire Gardens",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Palo Alto",
+               "short_name" : "Palo Alto",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94306",
+               "short_name" : "94306",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3445 Alma St, Palo Alto, CA 94306, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4189358,
+               "lng" : -122.1244371
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4202847802915,
+                  "lng" : -122.1230881197085
+               },
+               "southwest" : {
+                  "lat" : 37.4175868197085,
+                  "lng" : -122.1257860802915
+               }
+            }
+         },
+         "place_id" : "ChIJ9eISPGG6j4ARWe8m2d5CK8g",
+         "plus_code" : {
+            "compound_code" : "CV9G+H6 Palo Alto, California, United States",
+            "global_code" : "849VCV9G+H6"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

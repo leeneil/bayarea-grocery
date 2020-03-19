@@ -1,0 +1,76 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3255",
+               "short_name" : "3255",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mission College Boulevard",
+               "short_name" : "Mission College Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Santa Clara",
+               "short_name" : "Santa Clara",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95054",
+               "short_name" : "95054",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3255 Mission College Blvd, Santa Clara, CA 95054, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.39007300000001,
+               "lng" : -121.985448
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.39142198029151,
+                  "lng" : -121.9840990197085
+               },
+               "southwest" : {
+                  "lat" : 37.38872401970851,
+                  "lng" : -121.9867969802915
+               }
+            }
+         },
+         "place_id" : "ChIJMcjCStzJj4ARatfT398YVfw",
+         "plus_code" : {
+            "compound_code" : "92R7+2R Santa Clara, California, United States",
+            "global_code" : "849W92R7+2R"
+         },
+         "types" : [
+            "department_store",
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,123 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Santa Cruz",
+               "short_name" : "Santa Cruz",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Cruz County",
+               "short_name" : "Santa Cruz County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95062",
+               "short_name" : "95062",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Santa Cruz, CA 95062, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 36.9677899,
+               "lng" : -121.9871217
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 36.9691388802915,
+                  "lng" : -121.9857727197085
+               },
+               "southwest" : {
+                  "lat" : 36.9664409197085,
+                  "lng" : -121.9884706802915
+               }
+            }
+         },
+         "place_id" : "ChIJq6qqqlYVjoARUOYVrom9Zag",
+         "types" : [ "establishment", "general_contractor", "point_of_interest" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "453",
+               "short_name" : "453",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Valley Drive",
+               "short_name" : "Valley Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Brisbane",
+               "short_name" : "Brisbane",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Mateo County",
+               "short_name" : "San Mateo County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94005",
+               "short_name" : "94005",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "453 Valley Dr, Brisbane, CA 94005, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6901539,
+               "lng" : -122.4175392
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.69150288029149,
+                  "lng" : -122.4161902197085
+               },
+               "southwest" : {
+                  "lat" : 37.6888049197085,
+                  "lng" : -122.4188881802915
+               }
+            }
+         },
+         "place_id" : "ChIJHXUEPap_j4ARmtPfYfPalOI",
+         "plus_code" : {
+            "compound_code" : "MHRJ+3X Brisbane, California, United States",
+            "global_code" : "849VMHRJ+3X"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

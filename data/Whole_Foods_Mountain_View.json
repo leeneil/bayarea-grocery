@@ -1,0 +1,81 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4800",
+               "short_name" : "4800",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "El Camino Real",
+               "short_name" : "El Camino Real",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "North Los Altos",
+               "short_name" : "North Los Altos",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Los Altos",
+               "short_name" : "Los Altos",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94022",
+               "short_name" : "94022",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4800 El Camino Real, Los Altos, CA 94022, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3989341,
+               "lng" : -122.1106483
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.40028308029149,
+                  "lng" : -122.1092993197085
+               },
+               "southwest" : {
+                  "lat" : 37.39758511970849,
+                  "lng" : -122.1119972802915
+               }
+            }
+         },
+         "place_id" : "ChIJwz4tvpmwj4ARvlDtWYF38h4",
+         "plus_code" : {
+            "compound_code" : "9VXQ+HP Los Altos, California, United States",
+            "global_code" : "849V9VXQ+HP"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

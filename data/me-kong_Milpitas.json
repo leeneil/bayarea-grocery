@@ -1,0 +1,79 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "777",
+               "short_name" : "777",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "East Capitol Avenue",
+               "short_name" : "E Capitol Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Berryessa",
+               "short_name" : "Berryessa",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Milpitas",
+               "short_name" : "Milpitas",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95035",
+               "short_name" : "95035",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "777 E Capitol Ave, Milpitas, CA 95035, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4080469,
+               "lng" : -121.8881623
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4093958802915,
+                  "lng" : -121.8868133197085
+               },
+               "southwest" : {
+                  "lat" : 37.4066979197085,
+                  "lng" : -121.8895112802915
+               }
+            }
+         },
+         "place_id" : "ChIJ6ew0w7rOj4ARA2tQJtqY15c",
+         "plus_code" : {
+            "compound_code" : "C456+6P San Jose, California, United States",
+            "global_code" : "849WC456+6P"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

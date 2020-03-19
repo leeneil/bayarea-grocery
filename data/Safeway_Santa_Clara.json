@@ -1,0 +1,79 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3970",
+               "short_name" : "3970",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rivermark Plaza",
+               "short_name" : "Rivermark Plaza",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Rivermark of Santa Clara",
+               "short_name" : "Rivermark",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara",
+               "short_name" : "Santa Clara",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95054",
+               "short_name" : "95054",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3970 Rivermark Plaza, Santa Clara, CA 95054, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3942711,
+               "lng" : -121.9475807
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3956200802915,
+                  "lng" : -121.9462317197085
+               },
+               "southwest" : {
+                  "lat" : 37.3929221197085,
+                  "lng" : -121.9489296802915
+               }
+            }
+         },
+         "place_id" : "ChIJec-odnbJj4AR3thv0aceyaE",
+         "plus_code" : {
+            "compound_code" : "93V2+PX Santa Clara, California, United States",
+            "global_code" : "849W93V2+PX"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,77 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "301",
+               "short_name" : "301",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ranch Drive",
+               "short_name" : "Ranch Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Milpitas",
+               "short_name" : "Milpitas",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95035",
+               "short_name" : "95035",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "301 Ranch Dr, Milpitas, CA 95035, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.431568,
+               "lng" : -121.9211774
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.43291698029149,
+                  "lng" : -121.9198284197085
+               },
+               "southwest" : {
+                  "lat" : 37.4302190197085,
+                  "lng" : -121.9225263802915
+               }
+            }
+         },
+         "place_id" : "ChIJqeO8JtzIj4AR-EJ3nWnWqAs",
+         "plus_code" : {
+            "compound_code" : "C3JH+JG Milpitas, California, United States",
+            "global_code" : "849WC3JH+JG"
+         },
+         "types" : [
+            "department_store",
+            "electronics_store",
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

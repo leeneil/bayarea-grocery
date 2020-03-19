@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1092",
+               "short_name" : "1092",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "East El Camino Real",
+               "short_name" : "E El Camino Real",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sunnyvale",
+               "short_name" : "Sunnyvale",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94087",
+               "short_name" : "94087",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "3777",
+               "short_name" : "3777",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "1092 E El Camino Real, Sunnyvale, CA 94087, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3516846,
+               "lng" : -122.0014877
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.35303358029149,
+                  "lng" : -122.0001387197085
+               },
+               "southwest" : {
+                  "lat" : 37.3503356197085,
+                  "lng" : -122.0028366802915
+               }
+            }
+         },
+         "place_id" : "ChIJa6q3VfC1j4ARM6pxdpZagbY",
+         "plus_code" : {
+            "compound_code" : "9X2X+MC Sunnyvale, California, United States",
+            "global_code" : "849V9X2X+MC"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

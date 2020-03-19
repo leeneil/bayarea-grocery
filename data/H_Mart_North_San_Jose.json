@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1710",
+               "short_name" : "1710",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Oakland Road",
+               "short_name" : "Oakland Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Berryessa",
+               "short_name" : "Berryessa",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95131",
+               "short_name" : "95131",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1710 Oakland Rd, San Jose, CA 95131, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3836167,
+               "lng" : -121.8946339
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3849656802915,
+                  "lng" : -121.8932849197085
+               },
+               "southwest" : {
+                  "lat" : 37.3822677197085,
+                  "lng" : -121.8959828802915
+               }
+            }
+         },
+         "place_id" : "ChIJAcdqHw_Mj4ARnMryRxfgTUI",
+         "plus_code" : {
+            "compound_code" : "94M4+C4 San Jose, California, United States",
+            "global_code" : "849W94M4+C4"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

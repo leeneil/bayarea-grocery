@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "35219",
+               "short_name" : "35219",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Newark Boulevard",
+               "short_name" : "Newark Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Newark",
+               "short_name" : "Newark",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94560",
+               "short_name" : "94560",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "35219 Newark Blvd, Newark, CA 94560, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5478217,
+               "lng" : -122.046756
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5491706802915,
+                  "lng" : -122.0454070197085
+               },
+               "southwest" : {
+                  "lat" : 37.5464727197085,
+                  "lng" : -122.0481049802915
+               }
+            }
+         },
+         "place_id" : "ChIJzRMY4FC-j4ARPsgxqRat0tc",
+         "plus_code" : {
+            "compound_code" : "GXX3+47 Newark, California, United States",
+            "global_code" : "849VGXX3+47"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,163 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "20745",
+               "short_name" : "20745",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Stevens Creek Boulevard",
+               "short_name" : "Stevens Creek Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Cupertino",
+               "short_name" : "Cupertino",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95014",
+               "short_name" : "95014",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "2123",
+               "short_name" : "2123",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "20745 Stevens Creek Blvd, Cupertino, CA 95014, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3244095,
+               "lng" : -122.0360351
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3257584802915,
+                  "lng" : -122.0346861197085
+               },
+               "southwest" : {
+                  "lat" : 37.3230605197085,
+                  "lng" : -122.0373840802915
+               }
+            }
+         },
+         "place_id" : "ChIJjYjKgrK1j4ARPY2RJiUrNZ0",
+         "plus_code" : {
+            "compound_code" : "8XF7+QH Cupertino, California, United States",
+            "global_code" : "849V8XF7+QH"
+         },
+         "types" : [
+            "clothing_store",
+            "department_store",
+            "electronics_store",
+            "establishment",
+            "food",
+            "furniture_store",
+            "grocery_or_supermarket",
+            "home_goods_store",
+            "point_of_interest",
+            "store"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "19499",
+               "short_name" : "19499",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Stevens Creek Boulevard",
+               "short_name" : "Stevens Creek Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Cupertino",
+               "short_name" : "Cupertino",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95014",
+               "short_name" : "95014",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "7106",
+               "short_name" : "7106",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "19499 Stevens Creek Blvd, Cupertino, CA 95014, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3233882,
+               "lng" : -122.0112794
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.32473718029149,
+                  "lng" : -122.0099304197085
+               },
+               "southwest" : {
+                  "lat" : 37.32203921970849,
+                  "lng" : -122.0126283802915
+               }
+            }
+         },
+         "place_id" : "ChIJMyk9YJ61j4ARPm6CYzbINGQ",
+         "plus_code" : {
+            "compound_code" : "8XFQ+9F Cupertino, California, United States",
+            "global_code" : "849V8XFQ+9F"
+         },
+         "types" : [
+            "clothing_store",
+            "department_store",
+            "electronics_store",
+            "establishment",
+            "food",
+            "furniture_store",
+            "grocery_or_supermarket",
+            "home_goods_store",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

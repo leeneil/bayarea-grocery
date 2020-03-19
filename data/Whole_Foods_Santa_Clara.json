@@ -1,0 +1,81 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ste 1600",
+               "short_name" : "Ste 1600",
+               "types" : [ "subpremise" ]
+            },
+            {
+               "long_name" : "2732",
+               "short_name" : "2732",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Augustine Drive",
+               "short_name" : "Augustine Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Santa Clara",
+               "short_name" : "Santa Clara",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95054",
+               "short_name" : "95054",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2732 Augustine Dr Ste 1600, Santa Clara, CA 95054, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3808426,
+               "lng" : -121.9761941
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3821915802915,
+                  "lng" : -121.9748451197085
+               },
+               "southwest" : {
+                  "lat" : 37.3794936197085,
+                  "lng" : -121.9775430802915
+               }
+            }
+         },
+         "place_id" : "ChIJ6SikCPLJj4ARydxZnnuq98M",
+         "plus_code" : {
+            "compound_code" : "92JF+8G Santa Clara, California, United States",
+            "global_code" : "849W92JF+8G"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

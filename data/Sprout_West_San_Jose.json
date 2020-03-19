@@ -1,0 +1,81 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "5205",
+               "short_name" : "5205",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Prospect Road",
+               "short_name" : "Prospect Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "West San Jose",
+               "short_name" : "West San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95129",
+               "short_name" : "95129",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "5205 Prospect Rd, San Jose, CA 95129, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2926571,
+               "lng" : -121.9923749
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2940060802915,
+                  "lng" : -121.9910259197085
+               },
+               "southwest" : {
+                  "lat" : 37.2913081197085,
+                  "lng" : -121.9937238802915
+               }
+            }
+         },
+         "place_id" : "ChIJJ4FkbKrKj4ARbeec4OMjUdo",
+         "plus_code" : {
+            "compound_code" : "72V5+33 San Jose, California, United States",
+            "global_code" : "849W72V5+33"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,73 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "13200",
+               "short_name" : "13200",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "North Western Avenue",
+               "short_name" : "N Western Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Northwest Oklahoma City",
+               "short_name" : "NW OKC",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Oklahoma City",
+               "short_name" : "Oklahoma City",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Oklahoma County",
+               "short_name" : "Oklahoma County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Oklahoma",
+               "short_name" : "OK",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "73114",
+               "short_name" : "73114",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "13200 N Western Ave, Oklahoma City, OK 73114, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 35.6042747,
+               "lng" : -97.53023229999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.6056236802915,
+                  "lng" : -97.5288833197085
+               },
+               "southwest" : {
+                  "lat" : 35.6029257197085,
+                  "lng" : -97.5315812802915
+               }
+            }
+         },
+         "place_id" : "ChIJaye3fSUdsocRMB3BX0GK_sM",
+         "plus_code" : {
+            "compound_code" : "JF39+PW Northwest Oklahoma City, Oklahoma City, OK, United States",
+            "global_code" : "8674JF39+PW"
+         },
+         "types" : [ "department_store", "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,68 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1601",
+               "short_name" : "1601",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Coleman Avenue",
+               "short_name" : "Coleman Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Santa Clara",
+               "short_name" : "Santa Clara",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95050",
+               "short_name" : "95050",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1601 Coleman Ave, Santa Clara, CA 95050, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3569434,
+               "lng" : -121.939327
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3582923802915,
+                  "lng" : -121.9379780197085
+               },
+               "southwest" : {
+                  "lat" : 37.3555944197085,
+                  "lng" : -121.9406759802915
+               }
+            }
+         },
+         "place_id" : "ChIJpQP2H7HLj4AR_gUbxOt_aIY",
+         "plus_code" : {
+            "compound_code" : "9346+Q7 Santa Clara, California, United States",
+            "global_code" : "849W9346+Q7"
+         },
+         "types" : [ "department_store", "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

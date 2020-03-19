@@ -1,0 +1,146 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "10983",
+               "short_name" : "10983",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "North Wolfe Road",
+               "short_name" : "N Wolfe Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Cupertino",
+               "short_name" : "Cupertino",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95014",
+               "short_name" : "95014",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "10983 N Wolfe Rd, Cupertino, CA 95014, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.33682659999999,
+               "lng" : -122.0153611
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.33817558029149,
+                  "lng" : -122.0140121197085
+               },
+               "southwest" : {
+                  "lat" : 37.33547761970849,
+                  "lng" : -122.0167100802915
+               }
+            }
+         },
+         "place_id" : "ChIJTQZFFJa1j4ARkO77VjuTnfw",
+         "plus_code" : {
+            "compound_code" : "8XPM+PV Cupertino, California, United States",
+            "global_code" : "849V8XPM+PV"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "McClellan Road",
+               "short_name" : "McClellan Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Cupertino",
+               "short_name" : "Cupertino",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95014",
+               "short_name" : "95014",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "3011",
+               "short_name" : "3011",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "10425 South De Anza Boulevard, McClellan Rd, Cupertino, CA 95014, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.317055,
+               "lng" : -122.0338548
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.31840398029149,
+                  "lng" : -122.0325058197085
+               },
+               "southwest" : {
+                  "lat" : 37.3157060197085,
+                  "lng" : -122.0352037802915
+               }
+            }
+         },
+         "place_id" : "ChIJa1v4PKq1j4ARQFcAfoMr9O8",
+         "plus_code" : {
+            "compound_code" : "8X88+RF Cupertino, California, United States",
+            "global_code" : "849V8X88+RF"
+         },
+         "types" : [
+            "bakery",
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

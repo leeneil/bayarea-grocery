@@ -1,0 +1,163 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1600",
+               "short_name" : "1600",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Saratoga Avenue",
+               "short_name" : "Saratoga Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "West San Jose",
+               "short_name" : "West San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95129",
+               "short_name" : "95129",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1600 Saratoga Ave, San Jose, CA 95129, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2914104,
+               "lng" : -121.9903485
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.29275938029149,
+                  "lng" : -121.9889995197085
+               },
+               "southwest" : {
+                  "lat" : 37.2900614197085,
+                  "lng" : -121.9916974802915
+               }
+            }
+         },
+         "place_id" : "ChIJRYH3xqvKj4ARxlGQTTobmDo",
+         "plus_code" : {
+            "compound_code" : "72R5+HV San Jose, California, United States",
+            "global_code" : "849W72R5+HV"
+         },
+         "types" : [
+            "clothing_store",
+            "department_store",
+            "electronics_store",
+            "establishment",
+            "food",
+            "furniture_store",
+            "grocery_or_supermarket",
+            "home_goods_store",
+            "point_of_interest",
+            "store"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1811",
+               "short_name" : "1811",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hillsdale Avenue",
+               "short_name" : "Hillsdale Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Willow Glen",
+               "short_name" : "Willow Glen",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95124",
+               "short_name" : "95124",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1811 Hillsdale Ave, San Jose, CA 95124, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2647222,
+               "lng" : -121.9186111
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2660711802915,
+                  "lng" : -121.9172621197085
+               },
+               "southwest" : {
+                  "lat" : 37.26337321970851,
+                  "lng" : -121.9199600802915
+               }
+            }
+         },
+         "place_id" : "ChIJ_V9dWW80joARGr_70_e27pI",
+         "plus_code" : {
+            "compound_code" : "737J+VH San Jose, California, United States",
+            "global_code" : "849W737J+VH"
+         },
+         "types" : [
+            "clothing_store",
+            "department_store",
+            "electronics_store",
+            "establishment",
+            "food",
+            "furniture_store",
+            "grocery_or_supermarket",
+            "home_goods_store",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

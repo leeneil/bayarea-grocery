@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "555",
+               "short_name" : "555",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "East Calaveras Boulevard",
+               "short_name" : "E Calaveras Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Milpitas",
+               "short_name" : "Milpitas",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95035",
+               "short_name" : "95035",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "555 E Calaveras Blvd, Milpitas, CA 95035, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4350391,
+               "lng" : -121.8980612
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4363880802915,
+                  "lng" : -121.8967122197085
+               },
+               "southwest" : {
+                  "lat" : 37.4336901197085,
+                  "lng" : -121.8994101802915
+               }
+            }
+         },
+         "place_id" : "ChIJLz2mjtXOj4ARq7GAjxl0uiE",
+         "plus_code" : {
+            "compound_code" : "C4P2+2Q Milpitas, California, United States",
+            "global_code" : "849WC4P2+2Q"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

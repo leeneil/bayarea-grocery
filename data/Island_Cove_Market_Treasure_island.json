@@ -1,0 +1,87 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Navy Base Exchange Building 201",
+               "short_name" : "Navy Base Exchange Building 201",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "800",
+               "short_name" : "800",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Avenue H",
+               "short_name" : "Avenue H",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Treasure Island",
+               "short_name" : "Treasure Island",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Francisco",
+               "short_name" : "SF",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Francisco County",
+               "short_name" : "San Francisco County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94130",
+               "short_name" : "94130",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Navy Base Exchange Building 201, 800 Avenue H, San Francisco, CA 94130, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.8264219,
+               "lng" : -122.3703485
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.8277708802915,
+                  "lng" : -122.3689995197085
+               },
+               "southwest" : {
+                  "lat" : 37.8250729197085,
+                  "lng" : -122.3716974802915
+               }
+            }
+         },
+         "place_id" : "ChIJS-YmXjGAhYARHKyqiY0H83g",
+         "plus_code" : {
+            "compound_code" : "RJGH+HV Treasure Island, San Francisco, CA, United States",
+            "global_code" : "849VRJGH+HV"
+         },
+         "types" : [
+            "atm",
+            "establishment",
+            "finance",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

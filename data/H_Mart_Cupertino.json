@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1179",
+               "short_name" : "1179",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "South De Anza Boulevard",
+               "short_name" : "S De Anza Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "West San Jose",
+               "short_name" : "West San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95129",
+               "short_name" : "95129",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1179 S De Anza Blvd, San Jose, CA 95129, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3042186,
+               "lng" : -122.0335099
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3055675802915,
+                  "lng" : -122.0321609197085
+               },
+               "southwest" : {
+                  "lat" : 37.3028696197085,
+                  "lng" : -122.0348588802915
+               }
+            }
+         },
+         "place_id" : "ChIJMYTJ4QS1j4ARI9Hi7tv0EQM",
+         "plus_code" : {
+            "compound_code" : "8X38+MH San Jose, California, United States",
+            "global_code" : "849V8X38+MH"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,79 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1655",
+               "short_name" : "1655",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "El Camino Real",
+               "short_name" : "El Camino Real",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Central San Mateo",
+               "short_name" : "Central San Mateo",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Mateo",
+               "short_name" : "San Mateo",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Mateo County",
+               "short_name" : "San Mateo County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94402",
+               "short_name" : "94402",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1655 El Camino Real, San Mateo, CA 94402, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5532143,
+               "lng" : -122.3136738
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5545632802915,
+                  "lng" : -122.3123248197085
+               },
+               "southwest" : {
+                  "lat" : 37.5518653197085,
+                  "lng" : -122.3150227802915
+               }
+            }
+         },
+         "place_id" : "ChIJmxWz6V6ej4ARd6QJAY23jUA",
+         "plus_code" : {
+            "compound_code" : "HM3P+7G San Mateo, California, United States",
+            "global_code" : "849VHM3P+7G"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

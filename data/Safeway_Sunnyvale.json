@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "150",
+               "short_name" : "150",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "East El Camino Real",
+               "short_name" : "E El Camino Real",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sunnyvale",
+               "short_name" : "Sunnyvale",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94087",
+               "short_name" : "94087",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "150 E El Camino Real, Sunnyvale, CA 94087, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3647216,
+               "lng" : -122.0307044
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.36607058029149,
+                  "lng" : -122.0293554197085
+               },
+               "southwest" : {
+                  "lat" : 37.36337261970849,
+                  "lng" : -122.0320533802915
+               }
+            }
+         },
+         "place_id" : "ChIJf3nZ9mS2j4ARlyAuAIkHT_I",
+         "plus_code" : {
+            "compound_code" : "9X79+VP Sunnyvale, California, United States",
+            "global_code" : "849V9X79+VP"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,73 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1000",
+               "short_name" : "1000",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "North Rengstorff Avenue",
+               "short_name" : "N Rengstorff Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Mountain View",
+               "short_name" : "Mountain View",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94043",
+               "short_name" : "94043",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "1716",
+               "short_name" : "1716",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "1000 N Rengstorff Ave, Mountain View, CA 94043, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4209755,
+               "lng" : -122.0958307
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.42232448029149,
+                  "lng" : -122.0944817197085
+               },
+               "southwest" : {
+                  "lat" : 37.41962651970849,
+                  "lng" : -122.0971796802915
+               }
+            }
+         },
+         "place_id" : "ChIJL6GyWAW6j4ARYerRq3IsAu0",
+         "plus_code" : {
+            "compound_code" : "CWC3+9M Mountain View, California, United States",
+            "global_code" : "849VCWC3+9M"
+         },
+         "types" : [ "car_repair", "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

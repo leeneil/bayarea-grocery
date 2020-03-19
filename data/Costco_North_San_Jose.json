@@ -1,0 +1,146 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1709",
+               "short_name" : "1709",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Automation Parkway",
+               "short_name" : "Automation Pkwy",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Berryessa",
+               "short_name" : "Berryessa",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95101",
+               "short_name" : "95101",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1709 Automation Pkwy, San Jose, CA 95101, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3900028,
+               "lng" : -121.8843083
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3913517802915,
+                  "lng" : -121.8829593197085
+               },
+               "southwest" : {
+                  "lat" : 37.3886538197085,
+                  "lng" : -121.8856572802915
+               }
+            }
+         },
+         "place_id" : "ChIJs7GzhhnMj4ARphqwUzhO6bg",
+         "plus_code" : {
+            "compound_code" : "94R8+27 San Jose, California, United States",
+            "global_code" : "849W94R8+27"
+         },
+         "types" : [ "department_store", "establishment", "point_of_interest", "store" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1709",
+               "short_name" : "1709",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Automation Parkway",
+               "short_name" : "Automation Pkwy",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Berryessa",
+               "short_name" : "Berryessa",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95131",
+               "short_name" : "95131",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "1866",
+               "short_name" : "1866",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "1709 Automation Pkwy, San Jose, CA 95131, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3882327,
+               "lng" : -121.8833857
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.38958168029149,
+                  "lng" : -121.8820367197085
+               },
+               "southwest" : {
+                  "lat" : 37.38688371970849,
+                  "lng" : -121.8847346802915
+               }
+            }
+         },
+         "place_id" : "ChIJSdquQRfMj4ARonn5sI5mXqc",
+         "plus_code" : {
+            "compound_code" : "94Q8+7J San Jose, California, United States",
+            "global_code" : "849W94Q8+7J"
+         },
+         "types" : [ "establishment", "gas_station", "point_of_interest" ]
+      }
+   ],
+   "status" : "OK"
+}

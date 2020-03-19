@@ -1,0 +1,148 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1092",
+               "short_name" : "1092",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "East El Camino Real",
+               "short_name" : "E El Camino Real",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sunnyvale",
+               "short_name" : "Sunnyvale",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94087",
+               "short_name" : "94087",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "3777",
+               "short_name" : "3777",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "1092 E El Camino Real, Sunnyvale, CA 94087, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3516846,
+               "lng" : -122.0014877
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.35303358029149,
+                  "lng" : -122.0001387197085
+               },
+               "southwest" : {
+                  "lat" : 37.3503356197085,
+                  "lng" : -122.0028366802915
+               }
+            }
+         },
+         "place_id" : "ChIJa6q3VfC1j4ARM6pxdpZagbY",
+         "plus_code" : {
+            "compound_code" : "9X2X+MC Sunnyvale, California, United States",
+            "global_code" : "849V9X2X+MC"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "2517",
+               "short_name" : "2517",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "El Camino Real",
+               "short_name" : "El Camino Real",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Santa Clara",
+               "short_name" : "Santa Clara",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95051",
+               "short_name" : "95051",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "3008",
+               "short_name" : "3008",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "2517 El Camino Real, Santa Clara, CA 95051, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3526622,
+               "lng" : -121.9717656
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3540111802915,
+                  "lng" : -121.9704166197085
+               },
+               "southwest" : {
+                  "lat" : 37.3513132197085,
+                  "lng" : -121.9731145802915
+               }
+            }
+         },
+         "place_id" : "ChIJQUvzx2rKj4ARziHqWadipxQ",
+         "plus_code" : {
+            "compound_code" : "923H+37 Santa Clara, California, United States",
+            "global_code" : "849W923H+37"
+         },
+         "types" : [ "car_repair", "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

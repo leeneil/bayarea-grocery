@@ -1,0 +1,84 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "270",
+               "short_name" : "270",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Redwood Shores Parkway",
+               "short_name" : "Redwood Shores Pkwy",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Redwood Shores",
+               "short_name" : "Redwood Shores",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Redwood City",
+               "short_name" : "Redwood City",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Mateo County",
+               "short_name" : "San Mateo County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94065",
+               "short_name" : "94065",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "270 Redwood Shores Pkwy, Redwood City, CA 94065, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5231094,
+               "lng" : -122.2515182
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.52445838029149,
+                  "lng" : -122.2501692197085
+               },
+               "southwest" : {
+                  "lat" : 37.5217604197085,
+                  "lng" : -122.2528671802915
+               }
+            }
+         },
+         "place_id" : "ChIJBfaz0aWYj4ARf8GP-iijhC8",
+         "plus_code" : {
+            "compound_code" : "GPFX+69 Redwood City, California, United States",
+            "global_code" : "849VGPFX+69"
+         },
+         "types" : [
+            "bakery",
+            "cafe",
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "pharmacy",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

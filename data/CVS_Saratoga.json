@@ -1,0 +1,76 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "12940",
+               "short_name" : "12940",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Saratoga Sunnyvale Road",
+               "short_name" : "Saratoga Sunnyvale Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Saratoga",
+               "short_name" : "Saratoga",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95070",
+               "short_name" : "95070",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "12940 Saratoga Sunnyvale Rd, Saratoga, CA 95070, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.280163,
+               "lng" : -122.0312529
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2815119802915,
+                  "lng" : -122.0299039197085
+               },
+               "southwest" : {
+                  "lat" : 37.27881401970851,
+                  "lng" : -122.0326018802915
+               }
+            }
+         },
+         "place_id" : "ChIJI-ZlQiy1j4ARjOwS0k6cAJ4",
+         "plus_code" : {
+            "compound_code" : "7XJ9+3F Saratoga, California, United States",
+            "global_code" : "849V7XJ9+3F"
+         },
+         "types" : [
+            "convenience_store",
+            "drugstore",
+            "establishment",
+            "food",
+            "health",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

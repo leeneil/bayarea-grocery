@@ -1,0 +1,157 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "777",
+               "short_name" : "777",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "The Alameda",
+               "short_name" : "The Alameda",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Central San Jose",
+               "short_name" : "Central San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95126",
+               "short_name" : "95126",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "777 The Alameda, San Jose, CA 95126, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3321237,
+               "lng" : -121.9049074
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.33347268029149,
+                  "lng" : -121.9035584197085
+               },
+               "southwest" : {
+                  "lat" : 37.33077471970849,
+                  "lng" : -121.9062563802915
+               }
+            }
+         },
+         "place_id" : "ChIJOzlY-l7Lj4ARIQXu7CsRNmY",
+         "plus_code" : {
+            "compound_code" : "83JW+R2 San Jose, California, United States",
+            "global_code" : "849W83JW+R2"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1146",
+               "short_name" : "1146",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Blossom Hill Road",
+               "short_name" : "Blossom Hill Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South San Jose",
+               "short_name" : "South San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95118",
+               "short_name" : "95118",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1146 Blossom Hill Rd, San Jose, CA 95118, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2491894,
+               "lng" : -121.8767183
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2505383802915,
+                  "lng" : -121.8753693197085
+               },
+               "southwest" : {
+                  "lat" : 37.2478404197085,
+                  "lng" : -121.8780672802915
+               }
+            }
+         },
+         "place_id" : "ChIJI4oCa94zjoARFMrewB8GJY8",
+         "plus_code" : {
+            "compound_code" : "64XF+R7 San Jose, California, United States",
+            "global_code" : "849W64XF+R7"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

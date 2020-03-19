@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1070",
+               "short_name" : "1070",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Foster City Boulevard",
+               "short_name" : "Foster City Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Foster City",
+               "short_name" : "Foster City",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Mateo County",
+               "short_name" : "San Mateo County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94404",
+               "short_name" : "94404",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1070 Foster City Blvd, Foster City, CA 94404, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5535444,
+               "lng" : -122.2572138
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5548933802915,
+                  "lng" : -122.2558648197085
+               },
+               "southwest" : {
+                  "lat" : 37.5521954197085,
+                  "lng" : -122.2585627802915
+               }
+            }
+         },
+         "place_id" : "ChIJxwjj0deYj4AR8ujZmKY-sRM",
+         "plus_code" : {
+            "compound_code" : "HP3V+C4 Foster City, California, United States",
+            "global_code" : "849VHP3V+C4"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "250",
+               "short_name" : "250",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Skyline Plaza",
+               "short_name" : "Skyline Plaza",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "St. Francis",
+               "short_name" : "St. Francis",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Daly City",
+               "short_name" : "Daly City",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Mateo County",
+               "short_name" : "San Mateo County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94015",
+               "short_name" : "94015",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "3825",
+               "short_name" : "3825",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "250 Skyline Plaza, Daly City, CA 94015, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6816711,
+               "lng" : -122.4882965
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.68302008029151,
+                  "lng" : -122.4869475197085
+               },
+               "southwest" : {
+                  "lat" : 37.68032211970851,
+                  "lng" : -122.4896454802915
+               }
+            }
+         },
+         "place_id" : "ChIJP-6BXnx8j4ARd5ZNL6my4rQ",
+         "plus_code" : {
+            "compound_code" : "MGJ6+MM Daly City, California, United States",
+            "global_code" : "849VMGJ6+MM"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,161 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1875",
+               "short_name" : "1875",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "South Bascom Avenue",
+               "short_name" : "S Bascom Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Pruneyard / Dry Creek",
+               "short_name" : "Pruneyard / Dry Creek",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Campbell",
+               "short_name" : "Campbell",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95008",
+               "short_name" : "95008",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1875 S Bascom Ave, Campbell, CA 95008, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2879599,
+               "lng" : -121.9332823
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2893088802915,
+                  "lng" : -121.9319333197085
+               },
+               "southwest" : {
+                  "lat" : 37.2866109197085,
+                  "lng" : -121.9346312802915
+               }
+            }
+         },
+         "place_id" : "ChIJ0ZvBZ8I0joARoBnTu6e1Hbw",
+         "plus_code" : {
+            "compound_code" : "73Q8+5M Campbell, California, United States",
+            "global_code" : "849W73Q8+5M"
+         },
+         "types" : [
+            "establishment",
+            "florist",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "liquor_store",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "4209",
+               "short_name" : "4209",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "North Campbell Avenue",
+               "short_name" : "N Campbell Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Campus Farm",
+               "short_name" : "Campus Farm",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Tucson",
+               "short_name" : "Tucson",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Pima County",
+               "short_name" : "Pima County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Arizona",
+               "short_name" : "AZ",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "85719",
+               "short_name" : "85719",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4209 N Campbell Ave, Tucson, AZ 85719, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 32.2835033,
+               "lng" : -110.9447958
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.2848522802915,
+                  "lng" : -110.9434468197085
+               },
+               "southwest" : {
+                  "lat" : 32.2821543197085,
+                  "lng" : -110.9461447802915
+               }
+            }
+         },
+         "place_id" : "ChIJm_SSizFy1oYR5beMkObl1L8",
+         "plus_code" : {
+            "compound_code" : "73M4+C3 Tucson, Arizona, United States",
+            "global_code" : "854F73M4+C3"
+         },
+         "types" : [
+            "establishment",
+            "florist",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "liquor_store",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

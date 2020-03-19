@@ -1,0 +1,73 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2300",
+               "short_name" : "2300",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Middlefield Road",
+               "short_name" : "Middlefield Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Redwood Village",
+               "short_name" : "Redwood Village",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Redwood City",
+               "short_name" : "Redwood City",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Mateo County",
+               "short_name" : "San Mateo County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94063",
+               "short_name" : "94063",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2300 Middlefield Rd, Redwood City, CA 94063, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.478857,
+               "lng" : -122.2165843
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4802059802915,
+                  "lng" : -122.2152353197085
+               },
+               "southwest" : {
+                  "lat" : 37.4775080197085,
+                  "lng" : -122.2179332802915
+               }
+            }
+         },
+         "place_id" : "ChIJo6wg-wijj4ARau3zQUzPzE8",
+         "plus_code" : {
+            "compound_code" : "FQHM+G9 Redwood City, California, United States",
+            "global_code" : "849VFQHM+G9"
+         },
+         "types" : [ "department_store", "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

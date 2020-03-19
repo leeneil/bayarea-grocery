@@ -1,0 +1,68 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "150",
+               "short_name" : "150",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lawrence Station Road",
+               "short_name" : "Lawrence Station Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sunnyvale",
+               "short_name" : "Sunnyvale",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94086",
+               "short_name" : "94086",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "150 Lawrence Station Rd, Sunnyvale, CA 94086, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3725,
+               "lng" : -121.995
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3738489802915,
+                  "lng" : -121.9936510197085
+               },
+               "southwest" : {
+                  "lat" : 37.3711510197085,
+                  "lng" : -121.9963489802915
+               }
+            }
+         },
+         "place_id" : "ChIJdUorRQK2j4ARDuYzIg19H2Q",
+         "plus_code" : {
+            "compound_code" : "92F4+22 Sunnyvale, California, United States",
+            "global_code" : "849W92F4+22"
+         },
+         "types" : [ "department_store", "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,81 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2955",
+               "short_name" : "2955",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Kirby Drive",
+               "short_name" : "Kirby Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Greenway/Upper Kirby",
+               "short_name" : "Greenway/Upper Kirby",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Houston",
+               "short_name" : "Houston",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Harris County",
+               "short_name" : "Harris County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Texas",
+               "short_name" : "TX",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "77098",
+               "short_name" : "77098",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2955 Kirby Dr, Houston, TX 77098, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 29.7395184,
+               "lng" : -95.4180918
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 29.7408673802915,
+                  "lng" : -95.41674281970849
+               },
+               "southwest" : {
+                  "lat" : 29.7381694197085,
+                  "lng" : -95.41944078029151
+               }
+            }
+         },
+         "place_id" : "ChIJHR8RS-zAQIYRfYlLfCzaBpg",
+         "plus_code" : {
+            "compound_code" : "PHQJ+RQ Southwest Houston, Houston, TX, United States",
+            "global_code" : "76X6PHQJ+RQ"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

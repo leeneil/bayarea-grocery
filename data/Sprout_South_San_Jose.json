@@ -1,0 +1,81 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1130",
+               "short_name" : "1130",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Branham Lane",
+               "short_name" : "Branham Ln",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South San Jose",
+               "short_name" : "South San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95118",
+               "short_name" : "95118",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1130 Branham Ln, San Jose, CA 95118, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2620139,
+               "lng" : -121.8781806
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2633628802915,
+                  "lng" : -121.8768316197085
+               },
+               "southwest" : {
+                  "lat" : 37.2606649197085,
+                  "lng" : -121.8795295802915
+               }
+            }
+         },
+         "place_id" : "ChIJ-6_56MEzjoARd0r4xI3Cjp0",
+         "plus_code" : {
+            "compound_code" : "746C+RP San Jose, California, United States",
+            "global_code" : "849W746C+RP"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
