@@ -22,7 +22,7 @@ def parse_html(html):
     data = list()
     soup = BeautifulSoup(html, 'html.parser')
     tables = soup.find_all("table")
-    trs = tables[0].tbody.find_all("tr")
+    trs = tables[1].tbody.find_all("tr")
     for i, tr in enumerate(trs):
         if i < 2:
             continue
