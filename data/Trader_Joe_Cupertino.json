@@ -1,0 +1,84 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "7250",
+               "short_name" : "7250",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bollinger Road",
+               "short_name" : "Bollinger Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "West Valley",
+               "short_name" : "West Valley",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95129",
+               "short_name" : "95129",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "7250 Bollinger Rd, San Jose, CA 95129, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3117915,
+               "lng" : -122.0309145
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.31314048029149,
+                  "lng" : -122.0295655197085
+               },
+               "southwest" : {
+                  "lat" : 37.3104425197085,
+                  "lng" : -122.0322634802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJVQu_mQa1j4ARAfJzsFgaZGs",
+         "plus_code" : {
+            "compound_code" : "8X69+PJ San Jose, California, United States",
+            "global_code" : "849V8X69+PJ"
+         },
+         "types" : [
+            "establishment",
+            "florist",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "liquor_store",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
