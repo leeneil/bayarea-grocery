@@ -9,7 +9,7 @@
     <meta property="og:site_name" content="Groceroy stores in Bay Area"/>
     <meta property="og:title" content="Groceroy stores in Bay Area"/>
     <meta property="og:url" content="http://www.ponan.li/bayarea-grocery/"/>
-    <meta property="og:description" content="Info visualization of grocery in the San Francisco Bay Area."/>
+    <meta property="og:description" content="Info visualization of live inventory at grocery stores in the San Francisco Bay Area."/>
     <meta property="og:locale" content="en_US"/>
     <meta property="og:image" content="http://www.ponan.li/bayarea-grocery/og.png"/>
     <meta charset="utf-8">
@@ -119,7 +119,7 @@
             }
           ]
         });
-        map.data.loadGeoJson('http://www.ponan.li/bayarea-grocery/data.json');
+        map.data.loadGeoJson('https://bayarea-grocery.firebaseapp.com/data.json');
         var infowindow = new google.maps.InfoWindow();
         google.maps.event.addListener(map, 'click', function() {
           infowindow.close();
@@ -139,7 +139,7 @@
     <footer>
       <div class="footer-copyright text-center">
       Disclaimer: the author doesn't own the <a href="https://docs.google.com/spreadsheets/d/1YpNdWWlvtZJ1xN7GW-XYMI_hEuU5u250bJUT55NM8Oc/htmlview?from=timeline&isappinstalled=0&fbclid=IwAR03bJGfoqpFnB7x0xdnrqvjoyKNJmyD7QBuZ6O5ln5AT8jb_A1Bh9SNgqw" target="_blank">data</a> in anyway. Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSchp7hUKvXWYwz2NvTyANYNZNuBfh21EZ0dQFvgqqYYEDGhqw/viewform" target="_blank">contribute data here</a>.
-      <span class="badge badge-danger">Crowdednss level.</span>
+      <span class="badge badge-danger">Crowdednss level</span>
       </div>
     </footer>
   </body>
