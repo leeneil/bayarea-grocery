@@ -1,0 +1,84 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "440",
+               "short_name" : "440",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "California Avenue",
+               "short_name" : "California Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Evergreen Park",
+               "short_name" : "Evergreen Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Palo Alto",
+               "short_name" : "Palo Alto",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94306",
+               "short_name" : "94306",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "1605",
+               "short_name" : "1605",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "440 California Ave, Palo Alto, CA 94306, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4262027,
+               "lng" : -122.1454268
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4275516802915,
+                  "lng" : -122.1440778197085
+               },
+               "southwest" : {
+                  "lat" : 37.4248537197085,
+                  "lng" : -122.1467757802915
+               }
+            }
+         },
+         "place_id" : "ChIJc37X8eW6j4ARCGK8720jjo8",
+         "plus_code" : {
+            "compound_code" : "CVG3+FR Palo Alto, California, United States",
+            "global_code" : "849VCVG3+FR"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

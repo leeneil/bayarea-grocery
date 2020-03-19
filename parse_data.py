@@ -7,16 +7,20 @@ import argparse
 import json
 import requests
 import math
+from datetime import datetime
+from dateutil import tz
 
 
 def get_geocode(keyword, save_path):
     apikey = open("APIKEY", "r").read()
-    url = "https://maps.googleapis.com/maps/api/geocode/json?address={}&key={}".format(keyword, apikey)
+    url = "https://maps.googleapis.com/maps/api/geocode/json?address={}&key={}".format(keyword+" California", apikey)
     r = requests.get(url)
     html = r.content.decode("utf-8")
     if save_path:
-        with open(os.path.join(save_path, keyword.replace(" ", "_")+".json"), "w") as f:
+        dest_path = os.path.join(save_path, keyword.replace(" ", "_")+".json")
+        with open(dest_path, "w") as f:
             f.write(html)
+            print("{} saved".format(dest_path))
     data = json.loads(html)
     return data
 
@@ -25,6 +29,7 @@ def make_json(df, output_path):
     data = dict(type="FeatureCollection", features=[])
     for i in range(len(df)):
         row = df.iloc[i]
+        timestamp = datetime.strptime(row["timestamp"], "%m/%d/%Y %H:%M:%S").replace(tzinfo=tz.tzutc()).astimezone(tz.tzlocal()).strftime("%m/%d/%Y %H:%M:%S")
         content = '<h3>{} <span class="badge badge-danger">{}</span></h3>'.format(row["name"], int(row["crowdedness"]))
 
         if str(row["available"]) != "nan":
@@ -37,7 +42,7 @@ def make_json(df, output_path):
         content += '<p><i>submitted '
         if str(row["contributor"]) != "nan":
             content += 'by: {} '.format(row["contributor"])
-        content += 'at {}</i></p>'.format(row["timestamp"])
+        content += 'at {}</i></p>'.format(timestamp)
         feature = dict(type="Feature", geometry=dict(type="Point", coordinates=[row["lng"], row["lat"]]),
                        properties=dict(name=row["name"], content=content))
         data["features"].append(feature)
@@ -57,17 +62,18 @@ def main():
                                                                  "description",  "sold_out", "contributor", "timestamp"]]
         if city == "Online":
             continue
-        print(market, city)
         target = (market+" "+city).replace(" ", "_")
-        if os.path.isfile(os.path.join("data", target+".json")):
+        target_path = os.path.join("data", target+".json")
+        if os.path.isfile(target_path):
             data = json.load(open(os.path.join("data", target+".json")))
         else:
-            data = get_geocode(market+" "+city+" California", save_path="data")
+            data = get_geocode(market+" "+city, save_path="data")
+            print(target, lat, lng)
         if len(data["results"]) < 1:
             continue
         lat = data["results"][0]["geometry"]["location"]["lat"]
         lng = data["results"][0]["geometry"]["location"]["lng"]
-        print(target, lat, lng)
+        # print(target, lat, lng)
         data_new.append([market+" "+city, lat, lng, crowdedness, available, description, sold_out, contributor,
                          timestamp])
     df_new = pd.DataFrame(data_new, columns=["name", "lat", "lng", "crowdedness", "available", "description",

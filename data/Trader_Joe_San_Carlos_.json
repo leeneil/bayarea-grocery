@@ -1,0 +1,78 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1482",
+               "short_name" : "1482",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "El Camino Real",
+               "short_name" : "El Camino Real",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "San Carlos",
+               "short_name" : "San Carlos",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Mateo County",
+               "short_name" : "San Mateo County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94070",
+               "short_name" : "94070",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1482 El Camino Real, San Carlos, CA 94070, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4963881,
+               "lng" : -122.248571
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4977370802915,
+                  "lng" : -122.2472220197085
+               },
+               "southwest" : {
+                  "lat" : 37.4950391197085,
+                  "lng" : -122.2499199802915
+               }
+            }
+         },
+         "place_id" : "ChIJO6ZFgz6ij4ARKO_zrQUstAc",
+         "plus_code" : {
+            "compound_code" : "FQW2+HH San Carlos, California, United States",
+            "global_code" : "849VFQW2+HH"
+         },
+         "types" : [
+            "establishment",
+            "florist",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "liquor_store",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

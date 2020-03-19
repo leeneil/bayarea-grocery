@@ -1,0 +1,86 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "675",
+               "short_name" : "675",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Saratoga Avenue",
+               "short_name" : "Saratoga Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "West Valley",
+               "short_name" : "West Valley",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95129",
+               "short_name" : "95129",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "2052",
+               "short_name" : "2052",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "675 Saratoga Ave, San Jose, CA 95129, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.314925,
+               "lng" : -121.9777
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3162739802915,
+                  "lng" : -121.9763510197085
+               },
+               "southwest" : {
+                  "lat" : 37.3135760197085,
+                  "lng" : -121.9790489802915
+               }
+            }
+         },
+         "place_id" : "ChIJ2R9BZpbKj4ARRBWHY0W2AR0",
+         "plus_code" : {
+            "compound_code" : "827C+XW San Jose, California, United States",
+            "global_code" : "849W827C+XW"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "restaurant",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

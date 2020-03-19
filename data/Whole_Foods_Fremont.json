@@ -1,0 +1,81 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3111",
+               "short_name" : "3111",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mowry Avenue",
+               "short_name" : "Mowry Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Centerville",
+               "short_name" : "Centerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Fremont",
+               "short_name" : "Fremont",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94538",
+               "short_name" : "94538",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3111 Mowry Ave, Fremont, CA 94538, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5549521,
+               "lng" : -121.9852559
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5563010802915,
+                  "lng" : -121.9839069197085
+               },
+               "southwest" : {
+                  "lat" : 37.55360311970851,
+                  "lng" : -121.9866048802915
+               }
+            }
+         },
+         "place_id" : "ChIJNxMrsYXAj4ARfuq-gplU-00",
+         "plus_code" : {
+            "compound_code" : "H237+XV Fremont, California, United States",
+            "global_code" : "849WH237+XV"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
