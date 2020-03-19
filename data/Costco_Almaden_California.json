@@ -1,0 +1,73 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "5301",
+               "short_name" : "5301",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Almaden Expressway",
+               "short_name" : "Almaden Expy",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South San Jose",
+               "short_name" : "South San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95118",
+               "short_name" : "95118",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "5301 Almaden Expy, San Jose, CA 95118, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2534981,
+               "lng" : -121.8799286
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2548470802915,
+                  "lng" : -121.8785796197085
+               },
+               "southwest" : {
+                  "lat" : 37.25214911970851,
+                  "lng" : -121.8812775802915
+               }
+            }
+         },
+         "place_id" : "ChIJt4iSneczjoARstrwdERQQ94",
+         "plus_code" : {
+            "compound_code" : "743C+92 San Jose, California, United States",
+            "global_code" : "849W743C+92"
+         },
+         "types" : [ "department_store", "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}
