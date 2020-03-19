@@ -25,7 +25,7 @@ def make_json(df, output_path):
     data = dict(type="FeatureCollection", features=[])
     for i in range(len(df)):
         row = df.iloc[i]
-        content = '<h3>{} <span class="badge badge-danger">{}</span></h3>'.format(row["name"], row["crowdedness"])
+        content = '<h3>{} <span class="badge badge-danger">{}</span></h3>'.format(row["name"], int(row["crowdedness"]))
 
         if str(row["available"]) != "nan":
             content += '<p><b>In stock: </b>{}'.format(row["available"])
