@@ -1,0 +1,83 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "39324",
+               "short_name" : "39324",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Argonaut Way",
+               "short_name" : "Argonaut Way",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sundale",
+               "short_name" : "Sundale",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Fremont",
+               "short_name" : "Fremont",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94538",
+               "short_name" : "94538",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "39324 Argonaut Way, Fremont, CA 94538, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5434679,
+               "lng" : -121.9861519
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5448168802915,
+                  "lng" : -121.9848029197085
+               },
+               "southwest" : {
+                  "lat" : 37.5421189197085,
+                  "lng" : -121.9875008802915
+               }
+            }
+         },
+         "place_id" : "ChIJO3hqLJnAj4ARuWtDawLOml4",
+         "plus_code" : {
+            "compound_code" : "G2V7+9G Fremont, California, United States",
+            "global_code" : "849WG2V7+9G"
+         },
+         "types" : [
+            "establishment",
+            "florist",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "liquor_store",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

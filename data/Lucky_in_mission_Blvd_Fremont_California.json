@@ -1,0 +1,150 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "40055",
+               "short_name" : "40055",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mission Boulevard",
+               "short_name" : "Mission Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Kimber - Gomes",
+               "short_name" : "Kimber - Gomes",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Fremont",
+               "short_name" : "Fremont",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94539",
+               "short_name" : "94539",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "40055 Mission Blvd, Fremont, CA 94539, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.55598,
+               "lng" : -121.951736
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5573289802915,
+                  "lng" : -121.9503870197085
+               },
+               "southwest" : {
+                  "lat" : 37.5546310197085,
+                  "lng" : -121.9530849802915
+               }
+            }
+         },
+         "place_id" : "ChIJrY7z4ePAj4ARF0kA3qgk7iM",
+         "plus_code" : {
+            "compound_code" : "H24X+98 Fremont, California, United States",
+            "global_code" : "849WH24X+98"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "22555",
+               "short_name" : "22555",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mission Boulevard",
+               "short_name" : "Mission Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Hayward",
+               "short_name" : "Hayward",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94541",
+               "short_name" : "94541",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "22555 Mission Blvd, Hayward, CA 94541, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6718563,
+               "lng" : -122.0855981
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.6732052802915,
+                  "lng" : -122.0842491197085
+               },
+               "southwest" : {
+                  "lat" : 37.67050731970851,
+                  "lng" : -122.0869470802915
+               }
+            }
+         },
+         "place_id" : "ChIJNYgm6WKRj4ARqAlJtnxxkMU",
+         "plus_code" : {
+            "compound_code" : "MWC7+PQ Hayward, California, United States",
+            "global_code" : "849VMWC7+PQ"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
