@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "554",
+               "short_name" : "554",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Salvatierra Walk",
+               "short_name" : "Salvatierra Walk",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Stanford",
+               "short_name" : "Stanford",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94305",
+               "short_name" : "94305",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "554 Salvatierra Walk, Stanford, CA 94305, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4228934,
+               "lng" : -122.1677975
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4242423802915,
+                  "lng" : -122.1664485197085
+               },
+               "southwest" : {
+                  "lat" : 37.4215444197085,
+                  "lng" : -122.1691464802915
+               }
+            }
+         },
+         "place_id" : "ChIJRSplONG6j4ARPh1bVSnVkUo",
+         "plus_code" : {
+            "compound_code" : "CRFJ+5V Stanford, California, United States",
+            "global_code" : "849VCRFJ+5V"
+         },
+         "types" : [
+            "convenience_store",
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
