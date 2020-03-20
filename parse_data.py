@@ -31,17 +31,17 @@ def make_json(df, output_path=None):
         row = df.iloc[i]
         timestamp = datetime.strptime(row["timestamp"], "%m/%d/%Y %H:%M:%S").replace(tzinfo=tz.gettz("America/New York")).astimezone(tz.tzlocal()).strftime("%m/%d/%Y %H:%M:%S")
         content = '<h3>{} <span class="badge badge-pill badge-warning">{}</span></h3>'.format(row["name"], int(row["crowdedness"]))
-        if str(row["available"]) != "nan":
+        if row["available"]:
             content += '<p><span class="badge badge-success"><b>In stock</b> </span> {}'.format(row["available"])
-            if str(row["description"]) != "nan":
+            if row["description"]:
                 content += ' ({})'.format(row["description"])
             content += '</p>'
-        if str(row["sold_out"]) != "nan":
+        if row["sold_out"]:
             content += '<p><span class="badge badge-danger"><b>Sold out</b> </span> {}'.format(row["sold_out"])
-        if str(row["remark"]) != "nan":
+        if row["remark"]:
             content += '<p>{}</p>'.format(row["remark"])
         content += '<p class="text-sm-right"><i>submitted '
-        if str(row["contributor"]) != "nan":
+        if row["contributor"]:
             content += 'by: {} '.format(row["contributor"])
         content += 'at {}</i></p>'.format(timestamp)
         feature = dict(type="Feature", geometry=dict(type="Point", coordinates=[row["lng"], row["lat"]]),
