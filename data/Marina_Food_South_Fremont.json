@@ -1,0 +1,85 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "46196",
+               "short_name" : "46196",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Warm Springs Boulevard",
+               "short_name" : "Warm Springs Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Industrial",
+               "short_name" : "East Industrial",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Fremont",
+               "short_name" : "Fremont",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94539",
+               "short_name" : "94539",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "7946",
+               "short_name" : "7946",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "46196 Warm Springs Blvd, Fremont, CA 94539, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4934641,
+               "lng" : -121.9299367
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.49481308029149,
+                  "lng" : -121.9285877197085
+               },
+               "southwest" : {
+                  "lat" : 37.49211511970849,
+                  "lng" : -121.9312856802915
+               }
+            }
+         },
+         "place_id" : "ChIJ_____w_Hj4AR8LmsjNhE1q8",
+         "plus_code" : {
+            "compound_code" : "F3VC+92 Fremont, California, United States",
+            "global_code" : "849WF3VC+92"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

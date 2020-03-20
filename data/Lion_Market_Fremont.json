@@ -1,0 +1,85 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "168",
+               "short_name" : "168",
+               "types" : [ "subpremise" ]
+            },
+            {
+               "long_name" : "39055",
+               "short_name" : "39055",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cedar Boulevard",
+               "short_name" : "Cedar Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Newark",
+               "short_name" : "Newark",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94560",
+               "short_name" : "94560",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "5009",
+               "short_name" : "5009",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "39055 Cedar Blvd #168, Newark, CA 94560, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5230778,
+               "lng" : -122.0080297
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.52442678029149,
+                  "lng" : -122.0066807197085
+               },
+               "southwest" : {
+                  "lat" : 37.52172881970849,
+                  "lng" : -122.0093786802915
+               }
+            }
+         },
+         "place_id" : "ChIJ--yOeE-_j4ARiQ19IYutVQQ",
+         "plus_code" : {
+            "compound_code" : "GXFR+6Q Newark, California, United States",
+            "global_code" : "849VGXFR+6Q"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

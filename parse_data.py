@@ -29,7 +29,7 @@ def make_json(df, output_path):
     data = dict(type="FeatureCollection", features=[])
     for i in range(len(df)):
         row = df.iloc[i]
-        timestamp = datetime.strptime(row["timestamp"], "%m/%d/%Y %H:%M:%S").replace(tzinfo=tz.tzutc()).astimezone(tz.tzlocal()).strftime("%m/%d/%Y %H:%M:%S")
+        timestamp = datetime.strptime(row["timestamp"], "%m/%d/%Y %H:%M:%S").replace(tzinfo=tz.gettz("America/Eastern")).astimezone(tz.tzlocal()).strftime("%m/%d/%Y %H:%M:%S")
         content = '<h3>{} <span class="badge badge-danger">{}</span></h3>'.format(row["name"], int(row["crowdedness"]))
 
         if str(row["available"]) != "nan":
