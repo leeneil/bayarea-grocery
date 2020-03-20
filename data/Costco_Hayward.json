@@ -1,0 +1,146 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "28505",
+               "short_name" : "28505",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hesperian Boulevard",
+               "short_name" : "Hesperian Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Eden Shores",
+               "short_name" : "Eden Shores",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hayward",
+               "short_name" : "Hayward",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94545",
+               "short_name" : "94545",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "28505 Hesperian Blvd, Hayward, CA 94545, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.6162442,
+               "lng" : -122.088355
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.6175931802915,
+                  "lng" : -122.0870060197085
+               },
+               "southwest" : {
+                  "lat" : 37.6148952197085,
+                  "lng" : -122.0897039802915
+               }
+            }
+         },
+         "place_id" : "ChIJd6HgpJyWj4ARAc6PSMUILa4",
+         "plus_code" : {
+            "compound_code" : "JW86+FM Hayward, California, United States",
+            "global_code" : "849VJW86+FM"
+         },
+         "types" : [ "department_store", "establishment", "point_of_interest", "store" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "22330",
+               "short_name" : "22330",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hathaway Avenue",
+               "short_name" : "Hathaway Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Santa Clara",
+               "short_name" : "Santa Clara",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Hayward",
+               "short_name" : "Hayward",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94541",
+               "short_name" : "94541",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "4861",
+               "short_name" : "4861",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "22330 Hathaway Ave, Hayward, CA 94541, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.667304,
+               "lng" : -122.102329
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.6686529802915,
+                  "lng" : -122.1009800197085
+               },
+               "southwest" : {
+                  "lat" : 37.6659550197085,
+                  "lng" : -122.1036779802915
+               }
+            }
+         },
+         "place_id" : "ChIJ0_bnkG2Rj4ARm1U0jNQgisw",
+         "plus_code" : {
+            "compound_code" : "MV8X+W3 Hayward, California, United States",
+            "global_code" : "849VMV8X+W3"
+         },
+         "types" : [ "department_store", "establishment", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}
