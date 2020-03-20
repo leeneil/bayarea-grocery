@@ -28,15 +28,19 @@ def parse_html(html):
             continue
         data.append([td.string for td in tr.find_all("td")])
     df = pd.DataFrame(data, columns=["market", "city", "date", "time", "zip", "available", "description", "sold_out",
-                                     "crowdedness", "maskness", "contributor", "memark", "timestamp", "A", "B"])
+                                     "crowdedness", "maskness", "contributor", "remark", "timestamp", "A", "B"])
+    return df
+
+
+def get_data(url):
+    html = get_html(url)
+    df = parse_html(html)
     return df
 
 
 def main():
     url = "https://docs.google.com/spreadsheets/d/1YpNdWWlvtZJ1xN7GW-XYMI_hEuU5u250bJUT55NM8Oc/htmlview?from=timeline&isappinstalled=0&fbclid=IwAR3kYiQoXmXACXP2dth3A77c1OvT1NHxTSLtO2RrTle3IGTy2-ibIhZ_VbY"
-    html = get_html(url)
-    # html = use_sample()
-    df = parse_html(html)
+    df = get_data(url)
     df.to_csv("data/out.csv")
 
 
