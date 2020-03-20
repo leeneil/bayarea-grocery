@@ -1,0 +1,84 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "635",
+               "short_name" : "635",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Coleman Avenue",
+               "short_name" : "Coleman Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Downtown San Jose",
+               "short_name" : "Downtown San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95110",
+               "short_name" : "95110",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "635 Coleman Ave, San Jose, CA 95110, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3408663,
+               "lng" : -121.9091788
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3422152802915,
+                  "lng" : -121.9078298197085
+               },
+               "southwest" : {
+                  "lat" : 37.3395173197085,
+                  "lng" : -121.9105277802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJn0i78WTLj4ARGOPrICaz1C8",
+         "plus_code" : {
+            "compound_code" : "83RR+88 San Jose, California, United States",
+            "global_code" : "849W83RR+88"
+         },
+         "types" : [
+            "establishment",
+            "florist",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "liquor_store",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
