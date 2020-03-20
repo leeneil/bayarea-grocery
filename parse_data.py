@@ -30,8 +30,9 @@ def make_json(df, output_path):
     for i in range(len(df)):
         row = df.iloc[i]
         timestamp = datetime.strptime(row["timestamp"], "%m/%d/%Y %H:%M:%S").replace(tzinfo=tz.gettz("America/New York")).astimezone(tz.tzlocal()).strftime("%m/%d/%Y %H:%M:%S")
-        content = '<h3>{} <span class="badge badge-danger">{}</span></h3>'.format(row["name"], int(row["crowdedness"]))
-
+        content = '<h3>{} <span class="badge badge-pill badge-warning">{}</span></h3>'.format(row["name"], int(row["crowdedness"]))
+        if str(row["remark"]) != "nan":
+            content += '<p>{}</p>'.format(row["remark"])
         if str(row["available"]) != "nan":
             content += '<p><b>In stock: </b>{}'.format(row["available"])
             if str(row["description"]) != "nan":
@@ -57,9 +58,10 @@ def main():
     print(df_markets)
     count = 0
     for i in range(len(df_markets)):
-        (market, city, crowdedness, available, description,
-         sold_out, contributor, timestamp) = df_markets.iloc[i][["market",  "city", "crowdedness", "available",
-                                                                 "description",  "sold_out", "contributor", "timestamp"]]
+        (market, city, crowdedness, available,
+         description, sold_out, contributor, remark,
+         timestamp) = df_markets.iloc[i][["market",  "city", "crowdedness", "available", "description",  "sold_out",
+                                          "contributor", "remark", "timestamp"]]
         if city == "Online":
             continue
         target = (market+" "+city).replace(" ", "_")
@@ -75,9 +77,9 @@ def main():
         lng = data["results"][0]["geometry"]["location"]["lng"]
         # print(target, lat, lng)
         data_new.append([market+" "+city, lat, lng, crowdedness, available, description, sold_out, contributor,
-                         timestamp])
+                         remark, timestamp])
     df_new = pd.DataFrame(data_new, columns=["name", "lat", "lng", "crowdedness", "available", "description",
-                                             "sold_out", "contributor", "timestamp"])
+                                             "sold_out", "contributor", "remark", "timestamp"])
     df_new.to_csv("data/export.csv")
 
     make_json(df_new, "data.json")
