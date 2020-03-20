@@ -1,0 +1,84 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "95",
+               "short_name" : "95",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Holger Way",
+               "short_name" : "Holger Way",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "North San Jose",
+               "short_name" : "North San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95134",
+               "short_name" : "95134",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "95 Holger Way, San Jose, CA 95134, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4181389,
+               "lng" : -121.9562306
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4194878802915,
+                  "lng" : -121.9548816197085
+               },
+               "southwest" : {
+                  "lat" : 37.4167899197085,
+                  "lng" : -121.9575795802915
+               }
+            }
+         },
+         "place_id" : "ChIJ9wHG-1LIj4ARwze438TiAf0",
+         "plus_code" : {
+            "compound_code" : "C29V+7G San Jose, California, United States",
+            "global_code" : "849WC29V+7G"
+         },
+         "types" : [
+            "clothing_store",
+            "department_store",
+            "electronics_store",
+            "establishment",
+            "food",
+            "furniture_store",
+            "grocery_or_supermarket",
+            "home_goods_store",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
