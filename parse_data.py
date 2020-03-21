@@ -64,6 +64,8 @@ def parse_data(df):
                                           "contributor", "remark", "timestamp"]]
         if city == "Online":
             continue
+        if not (market and city):
+            continue
         target = (market + " " + city).replace(" ", "_")
         target_path = os.path.join("data", target + ".json")
         if os.path.isfile(target_path):
