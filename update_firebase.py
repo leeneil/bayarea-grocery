@@ -1,5 +1,6 @@
 import time
 import pyrebase
+import sys
 from datetime import datetime
 from get_data import get_data
 from parse_data import parse_data, make_json
@@ -25,8 +26,9 @@ def main():
     db = firebase.database()
 
     t1 = -1
+    period = 60*int(sys.argv[1])
     while True:
-        if time.time() - t1 < 60*15:
+        if time.time() - t1 < period:
             pass
         else:
             t1 = time.time()
@@ -35,6 +37,8 @@ def main():
             data = get_and_parse()
             db.child("geojson").set(data)
             print("success")
+            t2 = time.time()
+            time.sleep(period-(t2-t1)-1)
 
 
 if __name__ == "__main__":
