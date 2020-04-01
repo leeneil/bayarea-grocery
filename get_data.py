@@ -4,6 +4,8 @@ import pandas as pd
 import datetime
 import argparse
 import requests
+from datetime import datetime
+from dateutil import tz
 from bs4 import BeautifulSoup
 
 
@@ -18,6 +20,10 @@ def get_html(url):
     return html
 
 
+def latest_update(ts):
+    return ts.dropna().sort_values().iloc[-1]
+
+
 def parse_html(html):
     data = list()
     soup = BeautifulSoup(html, 'html.parser')
@@ -29,6 +35,9 @@ def parse_html(html):
         data.append([td.string for td in tr.find_all("td")])
     df = pd.DataFrame(data, columns=["market", "city", "date", "time", "zip", "available", "description", "sold_out",
                                      "crowdedness", "maskness", "contributor", "remark", "timestamp", "A", "B"])
+    df.loc[:, "timestamp"] = df.loc[:, "timestamp"].apply(pd.to_datetime)
+    df.loc[:, "timestamp"] = df.loc[:, "timestamp"].dt.tz_localize(tz.gettz("America/New York")).dt.tz_convert(tz.gettz("America/Los Angeles"))
+    print("latest update: {}".format(latest_update(df["timestamp"])))
     return df
 
 

@@ -29,7 +29,7 @@ def make_json(df, output_path=None):
     data = dict(type="FeatureCollection", features=[])
     for i in range(len(df)):
         row = df.iloc[i]
-        timestamp = datetime.strptime(row["timestamp"], "%m/%d/%Y %H:%M:%S").replace(tzinfo=tz.gettz("America/New York")).astimezone(tz.tzlocal()).strftime("%m/%d/%Y %H:%M:%S")
+        timestamp = row["timestamp"].strftime("%m/%d/%Y %H:%M:%S")
         content = '<h3>{} <span class="badge badge-pill badge-warning">{}</span></h3>'.format(row["name"], int(row["crowdedness"]))
         if row["available"]:
             content += '<p><span class="badge badge-success"><b>In stock</b> </span> {}'.format(row["available"])
@@ -66,6 +66,8 @@ def parse_data(df):
             continue
         if not (market and city):
             continue
+        if isinstance(market, float) or isinstance(city, float):
+            continue
         target = (market + " " + city).replace(" ", "_")
         target_path = os.path.join("data", target + ".json")
         if os.path.isfile(target_path):
@@ -88,6 +90,7 @@ def parse_data(df):
 def main():
     csv_path = "data/out.csv"
     df = pd.read_csv(csv_path, index_col=0)
+    df.loc[:, "timestamp"] = pd.to_datetime(df.loc[:, "timestamp"])
     df_new = parse_data(df)
     df_new.to_csv("data/export.csv")
     make_json(df_new, "data.json")
