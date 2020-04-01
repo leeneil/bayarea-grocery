@@ -1,0 +1,76 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "630",
+               "short_name" : "630",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "San Antonio Road",
+               "short_name" : "San Antonio Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Mountain View",
+               "short_name" : "Mountain View",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94040",
+               "short_name" : "94040",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "630 San Antonio Rd, Mountain View, CA 94040, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4027459,
+               "lng" : -122.1137925
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4040948802915,
+                  "lng" : -122.1124435197085
+               },
+               "southwest" : {
+                  "lat" : 37.4013969197085,
+                  "lng" : -122.1151414802915
+               }
+            }
+         },
+         "place_id" : "ChIJZ9aWP5ywj4ARSQFRC5YOcrc",
+         "plus_code" : {
+            "compound_code" : "CV3P+3F Mountain View, California, United States",
+            "global_code" : "849VCV3P+3F"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

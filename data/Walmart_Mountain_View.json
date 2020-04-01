@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "600",
+               "short_name" : "600",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Showers Drive",
+               "short_name" : "Showers Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Mountain View",
+               "short_name" : "Mountain View",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94040",
+               "short_name" : "94040",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "600 Showers Dr, Mountain View, CA 94040, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4009978,
+               "lng" : -122.1095964
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4023467802915,
+                  "lng" : -122.1082474197085
+               },
+               "southwest" : {
+                  "lat" : 37.3996488197085,
+                  "lng" : -122.1109453802915
+               }
+            }
+         },
+         "place_id" : "ChIJq0BZBZmwj4ARL9oe-W9j7Dw",
+         "plus_code" : {
+            "compound_code" : "CV2R+95 Mountain View, California, United States",
+            "global_code" : "849VCV2R+95"
+         },
+         "types" : [
+            "department_store",
+            "establishment",
+            "health",
+            "pharmacy",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

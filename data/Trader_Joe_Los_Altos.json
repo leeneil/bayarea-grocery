@@ -1,0 +1,83 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2310",
+               "short_name" : "2310",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Homestead Road",
+               "short_name" : "Homestead Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Los Altos",
+               "short_name" : "South Los Altos",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Los Altos",
+               "short_name" : "Los Altos",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94024",
+               "short_name" : "94024",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2310 Homestead Rd, Los Altos, CA 94024, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.336597,
+               "lng" : -122.0671387
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.33794598029149,
+                  "lng" : -122.0657897197085
+               },
+               "southwest" : {
+                  "lat" : 37.3352480197085,
+                  "lng" : -122.0684876802915
+               }
+            }
+         },
+         "place_id" : "ChIJieswgBm0j4ARFi5zeQfa3bA",
+         "plus_code" : {
+            "compound_code" : "8WPM+J4 Los Altos, California, United States",
+            "global_code" : "849V8WPM+J4"
+         },
+         "types" : [
+            "establishment",
+            "florist",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "liquor_store",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,81 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "774",
+               "short_name" : "774",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Emerson Street",
+               "short_name" : "Emerson St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University South",
+               "short_name" : "University South",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Palo Alto",
+               "short_name" : "Palo Alto",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94301",
+               "short_name" : "94301",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "774 Emerson St, Palo Alto, CA 94301, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4424053,
+               "lng" : -122.1596147
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4437542802915,
+                  "lng" : -122.1582657197085
+               },
+               "southwest" : {
+                  "lat" : 37.4410563197085,
+                  "lng" : -122.1609636802915
+               }
+            }
+         },
+         "place_id" : "ChIJOdKVDTu7j4ARAWS1bVZzzz8",
+         "plus_code" : {
+            "compound_code" : "CRRR+X5 Palo Alto, California, United States",
+            "global_code" : "849VCRRR+X5"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

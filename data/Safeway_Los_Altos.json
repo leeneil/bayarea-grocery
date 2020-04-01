@@ -1,0 +1,153 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "160",
+               "short_name" : "160",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "1st Street",
+               "short_name" : "1st St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "North Los Altos",
+               "short_name" : "North Los Altos",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Los Altos",
+               "short_name" : "Los Altos",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94022",
+               "short_name" : "94022",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "160 1st St, Los Altos, CA 94022, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3790512,
+               "lng" : -122.1188735
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3804001802915,
+                  "lng" : -122.1175245197085
+               },
+               "southwest" : {
+                  "lat" : 37.3777022197085,
+                  "lng" : -122.1202224802915
+               }
+            }
+         },
+         "place_id" : "ChIJe_ChxvGwj4ARbOVfjlhv8rQ",
+         "plus_code" : {
+            "compound_code" : "9VHJ+JF Los Altos, California, United States",
+            "global_code" : "849V9VHJ+JF"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "690",
+               "short_name" : "690",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Fremont Avenue",
+               "short_name" : "Fremont Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Rancho",
+               "short_name" : "Rancho",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Los Altos",
+               "short_name" : "Los Altos",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94024",
+               "short_name" : "94024",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "690 Fremont Ave, Los Altos, CA 94024, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3606205,
+               "lng" : -122.0969246
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.36196948029149,
+                  "lng" : -122.0955756197085
+               },
+               "southwest" : {
+                  "lat" : 37.3592715197085,
+                  "lng" : -122.0982735802915
+               }
+            }
+         },
+         "place_id" : "ChIJv7OaVzqxj4ARRlsu09Hq0rE",
+         "plus_code" : {
+            "compound_code" : "9W63+66 Los Altos, California, United States",
+            "global_code" : "849V9W63+66"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

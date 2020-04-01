@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "129",
+               "short_name" : "129",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bernal Road",
+               "short_name" : "Bernal Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Edenvale",
+               "short_name" : "Edenvale",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95119",
+               "short_name" : "95119",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "129 Bernal Rd, San Jose, CA 95119, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2329139,
+               "lng" : -121.7746658
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2342628802915,
+                  "lng" : -121.7733168197085
+               },
+               "southwest" : {
+                  "lat" : 37.2315649197085,
+                  "lng" : -121.7760147802915
+               }
+            }
+         },
+         "place_id" : "ChIJQct5Dq8vjoARg24vq-OPzXo",
+         "plus_code" : {
+            "compound_code" : "66MG+54 San Jose, California, United States",
+            "global_code" : "849W66MG+54"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

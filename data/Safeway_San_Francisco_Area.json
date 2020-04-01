@@ -1,0 +1,79 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2020",
+               "short_name" : "2020",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Market Street",
+               "short_name" : "Market St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Duboce Triangle",
+               "short_name" : "Duboce Triangle",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Francisco",
+               "short_name" : "SF",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "San Francisco County",
+               "short_name" : "San Francisco County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94114",
+               "short_name" : "94114",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2020 Market St, San Francisco, CA 94114, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.7691214,
+               "lng" : -122.4283067
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.77047038029151,
+                  "lng" : -122.4269577197085
+               },
+               "southwest" : {
+                  "lat" : 37.76777241970851,
+                  "lng" : -122.4296556802915
+               }
+            }
+         },
+         "place_id" : "ChIJRRbkIx5-j4ARLyQH0X-xdbY",
+         "plus_code" : {
+            "compound_code" : "QH9C+JM The Castro, San Francisco, CA, United States",
+            "global_code" : "849VQH9C+JM"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

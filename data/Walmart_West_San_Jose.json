@@ -1,0 +1,162 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4080",
+               "short_name" : "4080",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Stevens Creek Boulevard",
+               "short_name" : "Stevens Creek Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "West Valley",
+               "short_name" : "West Valley",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95129",
+               "short_name" : "95129",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4080 Stevens Creek Blvd, San Jose, CA 95129, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3216605,
+               "lng" : -121.9732084
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3230094802915,
+                  "lng" : -121.9718594197085
+               },
+               "southwest" : {
+                  "lat" : 37.3203115197085,
+                  "lng" : -121.9745573802915
+               }
+            }
+         },
+         "place_id" : "ChIJcezwU5LKj4ARolZJF2W8cmo",
+         "plus_code" : {
+            "compound_code" : "82CG+MP San Jose, California, United States",
+            "global_code" : "849W82CG+MP"
+         },
+         "types" : [
+            "department_store",
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Unit 501",
+               "short_name" : "Unit 501",
+               "types" : [ "subpremise" ]
+            },
+            {
+               "long_name" : "1600",
+               "short_name" : "1600",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Saratoga Avenue",
+               "short_name" : "Saratoga Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "West San Jose",
+               "short_name" : "West San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95129",
+               "short_name" : "95129",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1600 Saratoga Ave Unit 501, San Jose, CA 95129, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2915278,
+               "lng" : -121.9883556
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2928767802915,
+                  "lng" : -121.9870066197085
+               },
+               "southwest" : {
+                  "lat" : 37.2901788197085,
+                  "lng" : -121.9897045802915
+               }
+            }
+         },
+         "place_id" : "ChIJG2JIQKvKj4ARCNyc9KgqEsU",
+         "plus_code" : {
+            "compound_code" : "72R6+JM San Jose, California, United States",
+            "global_code" : "849W72R6+JM"
+         },
+         "types" : [
+            "department_store",
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

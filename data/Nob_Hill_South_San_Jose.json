@@ -1,0 +1,213 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "6061",
+               "short_name" : "6061",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Snell Avenue",
+               "short_name" : "Snell Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Edenvale",
+               "short_name" : "Edenvale",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95123",
+               "short_name" : "95123",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "6061 Snell Ave, San Jose, CA 95123, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2374839,
+               "lng" : -121.8321372
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2388328802915,
+                  "lng" : -121.8307882197085
+               },
+               "southwest" : {
+                  "lat" : 37.2361349197085,
+                  "lng" : -121.8334861802915
+               }
+            }
+         },
+         "place_id" : "ChIJ26eGk8AxjoARhjwqAEPYckA",
+         "plus_code" : {
+            "compound_code" : "65P9+X4 San Jose, California, United States",
+            "global_code" : "849W65P9+X4"
+         },
+         "types" : [
+            "bakery",
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Nob Hill",
+               "short_name" : "Nob Hill",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95127",
+               "short_name" : "95127",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Nob Hill, San Jose, CA 95127, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 37.371849,
+                  "lng" : -121.8051642
+               },
+               "southwest" : {
+                  "lat" : 37.369107,
+                  "lng" : -121.8080632
+               }
+            },
+            "location" : {
+               "lat" : 37.37047250000001,
+               "lng" : -121.8067924
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.371849,
+                  "lng" : -121.8051642
+               },
+               "southwest" : {
+                  "lat" : 37.369107,
+                  "lng" : -121.8080632
+               }
+            }
+         },
+         "place_id" : "ChIJJ4GdQZzSj4AR8JPw4BAhvfw",
+         "types" : [ "neighborhood", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "6061",
+               "short_name" : "6061",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Snell Avenue",
+               "short_name" : "Snell Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Shawnee",
+               "short_name" : "Shawnee",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95123",
+               "short_name" : "95123",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "6061 Snell Ave, San Jose, CA 95123, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2376707,
+               "lng" : -121.8322681
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.23901968029149,
+                  "lng" : -121.8309191197085
+               },
+               "southwest" : {
+                  "lat" : 37.2363217197085,
+                  "lng" : -121.8336170802915
+               }
+            }
+         },
+         "place_id" : "ChIJCxLNk8AxjoARMsGM8-Z_UsA",
+         "plus_code" : {
+            "compound_code" : "65Q9+33 San Jose, California, United States",
+            "global_code" : "849W65Q9+33"
+         },
+         "types" : [ "bank", "establishment", "finance", "point_of_interest" ]
+      }
+   ],
+   "status" : "OK"
+}

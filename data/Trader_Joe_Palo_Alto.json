@@ -1,0 +1,78 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "855",
+               "short_name" : "855",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "El Camino Real",
+               "short_name" : "El Camino Real",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Palo Alto",
+               "short_name" : "Palo Alto",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94301",
+               "short_name" : "94301",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "855 El Camino Real, Palo Alto, CA 94301, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4385004,
+               "lng" : -122.1591828
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.43984938029149,
+                  "lng" : -122.1578338197085
+               },
+               "southwest" : {
+                  "lat" : 37.4371514197085,
+                  "lng" : -122.1605317802915
+               }
+            }
+         },
+         "place_id" : "ChIJHz4XFiW7j4ARCIp120CAcFE",
+         "plus_code" : {
+            "compound_code" : "CRQR+C8 Palo Alto, California, United States",
+            "global_code" : "849VCRQR+C8"
+         },
+         "types" : [
+            "establishment",
+            "florist",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "liquor_store",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,157 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "44009",
+               "short_name" : "44009",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Osgood Road",
+               "short_name" : "Osgood Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Industrial",
+               "short_name" : "East Industrial",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Fremont",
+               "short_name" : "Fremont",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94539",
+               "short_name" : "94539",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "44009 Osgood Rd, Fremont, CA 94539, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5113488,
+               "lng" : -121.9432225
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5126977802915,
+                  "lng" : -121.9418735197085
+               },
+               "southwest" : {
+                  "lat" : 37.5099998197085,
+                  "lng" : -121.9445714802915
+               }
+            }
+         },
+         "place_id" : "ChIJh2HMWuHGj4ARYOOeFZ7OIkE",
+         "plus_code" : {
+            "compound_code" : "G364+GP Fremont, California, United States",
+            "global_code" : "849WG364+GP"
+         },
+         "types" : [
+            "department_store",
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "40580",
+               "short_name" : "40580",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Albrae Street",
+               "short_name" : "Albrae St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Baylands",
+               "short_name" : "Baylands",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Fremont",
+               "short_name" : "Fremont",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Alameda County",
+               "short_name" : "Alameda County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94538",
+               "short_name" : "94538",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "40580 Albrae St, Fremont, CA 94538, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.5201848,
+               "lng" : -121.9855225
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.5215337802915,
+                  "lng" : -121.9841735197085
+               },
+               "southwest" : {
+                  "lat" : 37.5188358197085,
+                  "lng" : -121.9868714802915
+               }
+            }
+         },
+         "place_id" : "ChIJJyKtBVPHj4AR78nnFx_9oZE",
+         "plus_code" : {
+            "compound_code" : "G2C7+3Q Fremont, California, United States",
+            "global_code" : "849WG2C7+3Q"
+         },
+         "types" : [
+            "department_store",
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,133 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "590",
+               "short_name" : "590",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Showers Drive",
+               "short_name" : "Showers Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Mountain View",
+               "short_name" : "Mountain View",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94040",
+               "short_name" : "94040",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "590 Showers Dr, Mountain View, CA 94040, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4020838,
+               "lng" : -122.1107579
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.4034327802915,
+                  "lng" : -122.1094089197085
+               },
+               "southwest" : {
+                  "lat" : 37.4007348197085,
+                  "lng" : -122.1121068802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJNQXj95iwj4ARmJbKFsVOjYM",
+         "plus_code" : {
+            "compound_code" : "CV2Q+RM Mountain View, California, United States",
+            "global_code" : "849VCV2Q+RM"
+         },
+         "types" : [
+            "establishment",
+            "florist",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "liquor_store",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Mountain View",
+               "short_name" : "Mountain View",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94040",
+               "short_name" : "94040",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Mountain View, CA 94040, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.4019553,
+               "lng" : -122.1109421
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.40330428029149,
+                  "lng" : -122.1095931197085
+               },
+               "southwest" : {
+                  "lat" : 37.40060631970849,
+                  "lng" : -122.1122910802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJT4oPSZmwj4ARcKzRQM5XiG0",
+         "plus_code" : {
+            "compound_code" : "CV2Q+QJ Mountain View, California, United States",
+            "global_code" : "849VCV2Q+QJ"
+         },
+         "types" : [ "establishment", "florist", "point_of_interest", "store" ]
+      }
+   ],
+   "status" : "OK"
+}

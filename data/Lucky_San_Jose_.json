@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Capitol Expressway",
+               "short_name" : "Capitol Expy",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South San Jose",
+               "short_name" : "South San Jose",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "San Jose",
+               "short_name" : "San Jose",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95136",
+               "short_name" : "95136",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "565 W, Capitol Expy, San Jose, CA 95136, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.2758121,
+               "lng" : -121.8538043
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.2771610802915,
+                  "lng" : -121.8524553197085
+               },
+               "southwest" : {
+                  "lat" : 37.2744631197085,
+                  "lng" : -121.8551532802915
+               }
+            }
+         },
+         "place_id" : "ChIJLXyi5UoyjoARToSOqIlsalY",
+         "plus_code" : {
+            "compound_code" : "74GW+8F San Jose, California, United States",
+            "global_code" : "849W74GW+8F"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}

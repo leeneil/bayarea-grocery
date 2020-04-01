@@ -1,0 +1,76 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2060",
+               "short_name" : "2060",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "El Camino Real",
+               "short_name" : "El Camino Real",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Santa Clara",
+               "short_name" : "Santa Clara",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara County",
+               "short_name" : "Santa Clara County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "95050",
+               "short_name" : "95050",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2060 El Camino Real, Santa Clara, CA 95050, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.3501896,
+               "lng" : -121.9625404
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.3515385802915,
+                  "lng" : -121.9611914197085
+               },
+               "southwest" : {
+                  "lat" : 37.3488406197085,
+                  "lng" : -121.9638893802915
+               }
+            }
+         },
+         "place_id" : "ChIJJysYYkbKj4ARQEtE-0dRf8E",
+         "plus_code" : {
+            "compound_code" : "922P+3X Santa Clara, California, United States",
+            "global_code" : "849W922P+3X"
+         },
+         "types" : [
+            "establishment",
+            "food",
+            "grocery_or_supermarket",
+            "health",
+            "point_of_interest",
+            "store",
+            "supermarket"
+         ]
+      }
+   ],
+   "status" : "OK"
+}
